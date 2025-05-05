@@ -22,6 +22,20 @@ IDE: SQL Server Management Studio (SSMS)
 
 git
 
+Legacy => .NET Framework [2002-2019, last version 4.8 => legacy framework] - licensed
+
+New => .NET (.Net Core) [2016, 1.0 => latest version: 9]
+
+Versioning style => Standard Term Support (odd numbered versions) and Long Term Support (even numbered versions)
+
+.NET SDK 8.0.408 is recommened to be installed
+Installation folder: C:\Program Files\dotnet
+
+command to check version number (highest):>dotnet --version
+command to list of all SDKs installed in the machine:>dotnet --list-sdks
+1. Open Source
+
+
 
 
 
