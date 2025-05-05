@@ -33,8 +33,16 @@ Installation folder: C:\Program Files\dotnet
 
 command to check version number (highest):>dotnet --version
 command to list of all SDKs installed in the machine:>dotnet --list-sdks
-1. Open Source
 
+advantages:
+1. Open Source (legacy .NET framework is NOT)
+2. Cross Platform app (legacy .NET framework is NOT so Cross-platform)
+3. Modular (small libraries/packages with built-in functionalties) and hence light-weight (legacy .NET framework provides such libraries too, but they are bulky)
+4. provides lots of basic facilities (services) required by every app by default such as dependency injection, logging, hosting, aplication lifetime management etc. (legacy .NET framework provided nothing as such by default)
+etc.
+
+MS offocial package site => NuGet [https://www.nuget.org/]
+Source repository => GitHub
 
 
 
