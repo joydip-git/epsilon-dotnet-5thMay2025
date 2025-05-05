@@ -45,5 +45,43 @@ MS offocial package site => NuGet [https://www.nuget.org/]
 Source repository => GitHub
 
 
+.NET components:
+	library: .Net Core/.NET Library
+	runtime: 
+		i. .Net Core/.NET runtime (for basic apps such as console app)
+		ii. Asp.Net Core runtime (for any web app such as Web API, Web Page, MVC web app etc.)
+		iii. .NET Desktop runtime (for desktop based UI app such as - Windows Forms app, Windows Presentation Foundation or WPF app)
+		Note: this runtime is NOT for creating cross-platform app, but apps targetted for windows O/S ONLY
+
+	web app tech: ASP.NET Core framework
+	data access tech: ADO.NET or EF Core
+
+
+
+agenda:
+create a basic console app to understand the structure of any C# application
+
+Console => name of an utility class 
+
+app file-folder structure:
+root directory (HelloWorld)
+	1. project directory (HelloWorld)
+		A. Program.cs (C# source code file with Main method)
+		Note: Main method is from where the execution begins. Its an entrypoint for any executable application.
+		B. project file (HelloWorld.csproj)
+		C. obj (lots of configurations about app - NOT needed during deployment)
+		D. bin (output directory - here the files generated after compilation will be placed) [bin>debug>net8.0>{output files}]
+			i. an dll file (HelloWorld.dll) -> actual output file generated from all source code files
+			ii. an exe file (HelloWorld.exe) -> host file (hosts the output file -> HelloWorld.dll)
+			iii. a program debug database file (HelloWorld.pdb) -> contains debugging information and this is not required during production
+			iv. a dependency JSON file (HelloWorl.deps.json) -> contains information about the dependencies of your app
+			v. a runtime configuration JSON file (HelloWorld.runtimeconfig.json) -> configuration of runtime that is required to run the app
+	2. solution file (HelloWorl.sln)
+
+
+
+		
+
+
 
 

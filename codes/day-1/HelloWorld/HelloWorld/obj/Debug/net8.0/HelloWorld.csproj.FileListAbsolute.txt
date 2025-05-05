@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-1\HelloWorld\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
