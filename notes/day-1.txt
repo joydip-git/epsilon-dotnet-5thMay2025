@@ -1,0 +1,27 @@
+Programming Language? Visual C#.NET (VB.NET, VF#.NET, VC++.Net etc.)
+
+Framework? => .NET (.Net Core) from Microsoft
+	a platform to 
+		- create an app
+		- compile an app
+		- test the app
+		- build (prod) the app
+		- deploy the app
+
+Application types: 
+	Console App => which will run through console
+	Web App => which will run in browser [ASP.NET Core]
+
+Data Access => ActiveX Data Object.NET (and Entity Framework Core)
+
+tools:
+Integrated Development Environment (IDE) => Visual Studio 2022 (Visual Studio Code)
+
+Database: MS SQL Server 2022 [Professional, Enterprise, Express Edition]
+IDE: SQL Server Management Studio (SSMS)
+
+git
+
+
+
+
