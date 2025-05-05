@@ -59,9 +59,11 @@ Source repository => GitHub
 
 
 agenda:
-create a basic console app to understand the structure of any C# application
+create a basic console app to understand the structure of any C# application as well as compile and run the application
 
 Console => name of an utility class 
+	WriteLine => to print some value in the console
+	ReadKey => to read the keystroke
 
 app file-folder structure:
 root directory (HelloWorld)
@@ -76,9 +78,13 @@ root directory (HelloWorld)
 			iii. a program debug database file (HelloWorld.pdb) -> contains debugging information and this is not required during production
 			iv. a dependency JSON file (HelloWorl.deps.json) -> contains information about the dependencies of your app
 			v. a runtime configuration JSON file (HelloWorld.runtimeconfig.json) -> configuration of runtime that is required to run the app
-	2. solution file (HelloWorl.sln)
+	2. solution file (HelloWorld.sln)
 
-
+code structure:
+	namespace => scope for types (such as class) (HelloWorld -> same name as that of the app)
+	class => a blueprint for objects (Program)
+	Main method => entrypoint [where the execution of app starts frpm]
+	code inside the Main method
 
 		
 
