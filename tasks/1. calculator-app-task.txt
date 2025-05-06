@@ -1,0 +1,23 @@
+agenda:
+ to learn about creating library (reusable component) and consume it from an executable (standalone) application
+
+problem statement:
+create a calculator application which can perform operations such as:  add, subtract, multiply and divide on any two numbers 
+
+1. create a black solution: CalculatorApp
+2. add a library app: CalculatorLibrary
+	1. create a class: Calculator in a class file: Calculator.cs
+	2. add 4 "public" methods in that clas
+		a. Add b. Subtract c. Multiply d. Divide
+	arguments of all the methods: 2
+	data types: int and int
+	names:choose yourself
+	return type: returns calculated value
+
+3. add a console app: CalculatorClient
+	1. add reference to the CalculatorLibrary
+	2. import the namespace of the Calculator class
+	3. create an object of Calculator class in the Program.cs file
+	4. call 4 methods one by one and pass two numerical values as arguments and store the return values
+	5. print those values
+	

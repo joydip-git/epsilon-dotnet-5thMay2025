@@ -1,0 +1,12 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\bin\Debug\net8.0\MessengerLibrary.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\bin\Debug\net8.0\MessengerLibrary.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\bin\Debug\net8.0\MessengerLibrary.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\MessengerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\MessengerLibrary.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\MessengerLibrary.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\MessengerLibrary.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\MessengerLibrary.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\MessengerLibrary.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\refint\MessengerLibrary.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\MessengerLibrary.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\LibraryDemo\MessengerLibrary\obj\Debug\net8.0\ref\MessengerLibrary.dll

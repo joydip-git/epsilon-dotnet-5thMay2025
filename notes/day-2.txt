@@ -84,3 +84,68 @@ There are two types of application:
 
 	 - library (the one without Main method in any file): reusable
 		[output file/assembly: *.dll (No host for this type of app)]
+	   Note: this type of application is used by other libraries or executables
+
+
+agenda:
+ to learn about creating library (reusable component) and consume it from an executable (standalone) application
+
+solution: LibraryDemo
+	1. library type app (class library app)
+		name: MessengerLibrary
+		class name: Messanger
+		method name: GetMessage
+		access specifier: public
+		purpose: return a welcome message welcoming a person
+		arguments: 1
+		arg name: name [name of the person]
+		arg type: string
+		returns: yes
+		return type: string [welcome message]
+	2. executable app (console app)
+		name: ClientApp
+		using top-level statement
+	   to use Messenger class and its method from this app (Program.cs file), you have to "add reference" to the library app (project)
+
+
+
+class best practices:
+	1. class name and name of the file, containing the class, should be 
+	same
+	2. one class file should have one class only
+	3. class name MUST be in pascal casing style and should not contain any keyword of language as suffix or prefix.
+	4. class name should not contain any digit or special character as suffix or prefix or in-between
+		ex: class DbUtility{}
+		bad: Dbutility/dbUtility/dbutility/DbUtility1/_DbUtility etc.	
+	5. class name should be singular styled (rare case plural style)
+	ex: 	class DbUtility{} 
+		class BankingOperations{}
+
+	6. class name should be a noun, not a verb or an adjective
+	bad => class PerformBankingOperations{}
+	good => class BankingOperations{}
+
+Method(s) of a class:
+<access-specifier> <access-modifier> <return-type> <method_name>(arg1-data-type arg1-name, arg2-data-type arg2-name,.....)
+{}
+
+return type can be "void": method does not return anything
+return type other than "void": method does return something and one must use "return" statement to return value from the method
+a method can return only one value.
+
+method best practices:
+1. name should be written in pascal-casing:
+ex: DoSomething() insteda of dosomething() or doSoemthing()
+2. method name should not contain any keyword of language as suffix or prefix.
+3. method name should not contain any digit or special character as suffix or prefix or in-between
+
+
+expression body syntax => applicable for one-liner
+used in case of class method, property, constructor etc. with single-line code
+
+start-up project: the project or app to run out of many present in the same solution when Ctrl+F5 or F5 from VS 2022 is clicked
+By default the first project added into the solution is the start-up project
+you can change the start up project configuration
+
+
+
