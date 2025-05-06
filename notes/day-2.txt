@@ -1,3 +1,8 @@
+cloning the repo:
+1. install git
+2. command: >git clone https://github.com/joydip-git/epsilon-dotnet-5thMay2025.git
+------------------------------------------------------------------------
+
 Top-level statement: new template feature, available for executable applications, where you need NOT to write the following explicitly
 	a. namespace
 	b. Any class inside that namespace
