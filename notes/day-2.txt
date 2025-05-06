@@ -1,0 +1,78 @@
+Top-level statement: new template feature, available for executable applications, where you need NOT to write the following explicitly
+	a. namespace
+	b. Any class inside that namespace
+	c. Main method inside the class
+
+just write the executable code directly in that file (which you were supposed to write inside Main method)
+
+this feature can be applied in one file in an executable application and that is the root file (the file with Main method). 
+this feature helps you avoid writing the boilerplate code.
+
+------------------------------------------------------------------
+
+CLI ( Command line interface) tool in .NET: dotnet
+>dotnet --vesion
+>dotnet --list-sdks
+
+create a new application, compile and run using this tool
+
+
+>dotnet new list => list of types of app that can be created
+
+generic command to create any app using CLI tool:
+>dotnet new <type-of-app> --name <app-name> -f <framework-verison>
+
+create console app:
+>dotnet new console --name FirstCLIApp -f net8.0
+
+compile the console app:
+>dotnet build <project file>
+note: if you are inside the directory where the *.csproj file is present, then no need  mention the file name after "build" command
+
+run the executable (console) app:
+>dotnet run <project file>
+note: if you are inside the directory where the *.csproj file is present, then no need  mention the file name after "run" command
+
+----------------------------------------------------------------------
+.NET application execution cycle:
+
+Source Code (any language) -> compiler -> Internediate Language/Common Internediate Language (IL/CIL) Code
+
+whichever language was used for source code, the compile anyway will produce IL code out of it and the IL code produced out of any language is same.
+
+IL Code is a platform neutral code => it does not contain any O/S specific instructions
+
+IL code has its own data type system
+in C#, if you declare an integer variable (int x=10;), or in VB you declare an integer variable (dim x as Integer; x=10;) the same from both language will be converted to IL data type Int32 (Int32 x = 10;)
+this data type system is known as CTS (Common Type System)
+this CTS helps you avoid syntactical and memory conflicts also
+
+this code will be placed in the output file (*.dll)
+the output file is also known as Assembly
+
+Compiler => Roslyn (C# and VB)
+
+Assembly contains not only IL code but also other artifacts.
+
+1. Assembly Metadata or Manifest: contains information (metadata) about the entire assembly or app (such as - name, author, version number, dependent libraries of the assembly etc.)
+
+2. Type Metadata or Metainfo: Contains information or metadata about every type (class, interface etc.) and their member information
+
+3. Headers: 
+	CLR Header: which version of runtime should be used to run this 	app. also it might contain digital signature.
+
+	Windows Header (optional): optional 32 bit windows header
+	
+
+4. IL Code itself
+
+to view these segments of the assembly you can use a tool: 
+name: ILDASM or Intermediate Language DisAssembler
+path: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\ildasm.exe
+Note: this tool was and still part of leagcy .NET framework SDKs. hence the pecuiliar path.
+
+There are two types of application: 
+	 - executable (the one with Main method): standalone
+		output file: *.dll + host app: *.exe
+	 - library (the one without Main method): reusable
+		output file: *.dll (No host for this type of app)

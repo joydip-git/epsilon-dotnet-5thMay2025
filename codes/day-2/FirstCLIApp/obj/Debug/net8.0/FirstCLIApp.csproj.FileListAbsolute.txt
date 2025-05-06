@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\bin\Debug\net8.0\FirstCLIApp.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\bin\Debug\net8.0\FirstCLIApp.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\bin\Debug\net8.0\FirstCLIApp.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\bin\Debug\net8.0\FirstCLIApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\bin\Debug\net8.0\FirstCLIApp.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\refint\FirstCLIApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\FirstCLIApp.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-2\FirstCLIApp\obj\Debug\net8.0\ref\FirstCLIApp.dll
