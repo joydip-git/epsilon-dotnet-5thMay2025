@@ -36,6 +36,8 @@ note: if you are inside the directory where the *.csproj file is present, then n
 ----------------------------------------------------------------------
 .NET application execution cycle:
 
+step-1:[compilation]
+---------------------------
 Source Code (any language) -> compiler -> Internediate Language/Common Internediate Language (IL/CIL) Code
 
 whichever language was used for source code, the compile anyway will produce IL code out of it and the IL code produced out of any language is same.
@@ -45,9 +47,9 @@ IL Code is a platform neutral code => it does not contain any O/S specific instr
 IL code has its own data type system
 in C#, if you declare an integer variable (int x=10;), or in VB you declare an integer variable (dim x as Integer; x=10;) the same from both language will be converted to IL data type Int32 (Int32 x = 10;)
 this data type system is known as CTS (Common Type System)
-this CTS helps you avoid syntactical and memory conflicts also
+this CTS helps you avoid syntactical and memory conflicts also as well as provides smooth integration/interoperability of applications.
 
-this code will be placed in the output file (*.dll)
+this IL code will be placed in the output file (*.dll)
 the output file is also known as Assembly
 
 Compiler => Roslyn (C# and VB)
@@ -72,7 +74,8 @@ path: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\i
 Note: this tool was and still part of leagcy .NET framework SDKs. hence the pecuiliar path.
 
 There are two types of application: 
-	 - executable (the one with Main method): standalone
-		output file: *.dll + host app: *.exe
-	 - library (the one without Main method): reusable
-		output file: *.dll (No host for this type of app)
+	 - executable (the one with Main method in a root file): standalone
+		[output file/assembly: *.dll + host app: *.exe]
+
+	 - library (the one without Main method in any file): reusable
+		[output file/assembly: *.dll (No host for this type of app)]
