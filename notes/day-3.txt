@@ -146,6 +146,58 @@ Equality:
 equality: ==
 Inequality: !=
 
+Control flow statements:
+------------------------------
+int a = 5;
+int b = 6;
+int c = 7;
+
+if(a>b) {
+	int x= 10;
+	if(a>c){
+		int x= 20;
+		cw("a is greater");
+		}
+	else
+		cw("c is greater");
+	}
+else
+	{
+	int x= 10;
+	cw("b is greater");
+	}
+
+1. if..else and nested if..else
+2. while
+3. do..while
+4. switch...case
+5. for 
+6. foreach
+7. continue, break, goto
+
+Conversion of data types:
+
+b => "b"		=> b
+10 => "10"		=> 10
+joydip => "joydip"
+
+y => 121
+joydip => ASCII value of 'j'
+
+<data-type>.Parse => converst ONLY string type data into target <data-type>
+
+string strData = Console.ReadLine();
+1. int target = int.Parse(strData);
+2. char target = char.Parse(strData);
+3. decimal target = decimal.Parse(strData);
+etc.....
+
+Conevrt class methods: they can convert any source type to any target type if possible.
+
+int asciiOfY = 121;
+char actualChar = Convert.ToChar(asciiOfY);
+int actualAscii = Convert.ToInt32(actualChar);
+
 
 
 
