@@ -1,6 +1,6 @@
 ﻿namespace MessengerLibrary
 {
-    public class Messanger
+    public class Messenger
     {
         //common syntax
         //public string GetMessage(string name)

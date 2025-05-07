@@ -1,0 +1,159 @@
+Execuatble app output files:
+	1. *.dll (actual output file containing IL code and others)
+	2. *.exe (host of the *.dll)
+	3. *.deps.json
+	4. *.runtimeconfig.json
+	5. *.pdb
+
+library app output files:
+	1. *.dll (actual output file containing IL code and others)
+	2. *.deps.json
+	3. *.pdb
+
+.NET app execution cycle:
+----------------------------------------------------------------
+runtime s/w: mscoree.dll (MS Common Object Runtime Execution Engine)
+
+step-2:
+1. when you click the host file (.exe) of the executable app (or press Ctrl+F5 or F5 button from VS or execute command of CLI "dotnet run"), a process memory block is allocated from the RAM by OS
+2. then the proper version of runtime s/w is loaded into the process and that runtime creates an application domain inside the process
+3. the output file of the executable app is loaded in the process appdomain along with the referenced libraries (the ones that you added reference to) as well as some built-in libraries (such as system.console.all, system.runtime.dll etc.)
+4. the entrypoint method and its encapsulating class code in IL, is converted to binary (machine-level code) code by Just-in-Time compiler (part of runtime s/w)
+5. execution begins from the entrypoint
+
+Note: the entire application IL code is NOT converted to binary code at one go, rather incrementally. that optimizes the performance of the runtime, hence the application.
+
+
+Stack: a memory block region where memory block for local variables of Main and other methods are allocated
+
+Heap: a memory block region where memory block for objects of classes used in your application are allocated
+
+Agenda:
+	1. C# Basics - data types, operators, control flow statements
+	2. array
+
+C# language:
+------------------------
+1. OOP language
+2. case-sensitive
+3. type-safe
+
+value type data type: the variable of this data type stores the assigned value directly in the memory block
+
+
+reference type data type: the variable of this data type DOES NOT store the assigned "value" directly in the memory block, rather than a reference to the "value". the "value" in this context is an "object", which is stored in another memory block region, known as "heap".
+
+			     Data Types
+-------------------------------------------------------------------------
+	value type				reference type
+--------------------------------------------------------------------------
+built-in	user-defined		built-in	user-defined
+--------------------------------------------------------------------------
+byte (1)	structure (struct)	String		class
+sbyte		enum			Object etc.	interface
+short (2)						delegate
+ushort							event
+int (4)
+uint
+long (8)
+ulong
+
+decimal (decimal decValue = 12.34M;)
+float   (float flValue = 12.34F;)
+double  (double douValue = 12.34D; or double douValue = 12.34;)
+Note: by default any fractional numerical value is "double"
+
+char
+bool
+
+DateTime
+TimeSpan
+
+etc.
+
+best practices: declaring a variable
+1. variable name should be in camel case
+	int myValue = 10;
+2. should avoid using '_' or any other special character in the variable name
+3. shoud not use any keyword as variable name
+4. should not use numbers in the variable name
+5. should declare every variable in separate line, NOT in the same line if they are of similar type
+	bad: int x, y, z;
+	good:   int x = 0; 
+		int y = 0;
+		int z = 0;
+6. make sure the local variables are assigned with a default value, as unlike C etc. in C# there is no default value assigned to local variables by default
+
+Operators:
+1. Arithmetic
+2. Comparison
+3. Boolean Logical
+4. Equality 
+5. Bitwise and shift operators
+
+Arithmetic:
+----------------------------
+A. Unary operator: operator which operates on one operand
+
+a. unary plus and minus: + (returns the value of the operand), - (computes the numeric negation of the operand)
+
+b. increment: ++ and decrement: --
+
+prefix: int a =10; ++a;--a  [the value of after the operation]
+postfix: int a =10; a++;a--; [the value of before the operation]
+
+B. Binary Operator: operator which operates on at least two operands
++, -, *, /, %
+
+compound assignment operators: +=, -=, *=, /=, %=
+
+Operator precedence: (Highest -> Lowest)
+--------------------------------------------
+Postfix increment and decrement
+Prefix increment and decrement and unary plus and minus
+Multiplicative operators: *, / and % operators
+Additive operators: + and - operators
+
+Binray aritmetic operators are left-associative, i.e.  the operators with same precedence level are evaluated from left to right.
+Use () to change the order of the velaution enforced by the operator precendence and associativity
+
+Comparison: [Relational]
+--------------------------------
+< (less than)
+> (greater than)
+less than or equal to (<=)
+greater than or equal to (>=)
+
+
+Boolean Logical:
+---------------------------
+! => logical negation [Unary]
+& => logical AND [Binary]
+^ => logical exclusive OR [Binary]
+| => logical OR [Binary]
+
+&& => Conditional logical AND [Binary]
+|| => Conditional logical OR [Binary]
+Note: && and || operators evaluate the right hand side operand ONLY if necessary
+
+compound assignment:
+bool test = true;
+test &= false;
+
+
+Equality:
+-----------------
+equality: ==
+Inequality: !=
+
+
+
+
+
+
+
+
+
+
+
+
