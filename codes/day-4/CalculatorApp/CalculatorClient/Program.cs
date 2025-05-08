@@ -10,7 +10,8 @@ char toContinue = 'n';
 do
 {
     //1. print the menu
-    Console.WriteLine("1. Add(a)\n2. Subtract(s)\n3. Multiply(m)\n4. Divide(d)");
+    //Console.WriteLine("1. Add(a)\n2. Subtract(s)\n3. Multiply(m)\n4. Divide(d)");
+    PrintMenu();
 
     //2. ask user choice
     Console.Write("\nenter choice[a/s/m/d]: ");
@@ -66,4 +67,6 @@ do
         toContinue = char.ToLower(toContinue);
 
 } while (toContinue != 'n');
+
+static void PrintMenu() => Console.WriteLine("1. Add(a)\n2. Subtract(s)\n3. Multiply(m)\n4. Divide(d)");
 

@@ -1,13 +1,25 @@
 ﻿using CalculatorLibrary;
+using System.Reflection;
 
 namespace CalculatorClientWithoutTopLevlStatement
 {
+    internal class Sample
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Sample...");
+        }
+    }
     internal class Program
     {
         static void Main()
         {
-            Calculator calculator = new();
+            Calculate();
+        }
 
+        private static char Calculate()
+        {
+            Calculator calculator = new();
             char toContinue = 'n';
             do
             {
@@ -23,45 +35,21 @@ namespace CalculatorClientWithoutTopLevlStatement
                 int secondValue = GetValue();
 
                 //4. perform operation based on choice
-                int? result;
-                string methodName = null;
 
-                switch (choice)
-                {
-                    case 'a':
-                        result = calculator.Add(firstValue, secondValue);
-                        methodName = nameof(calculator.Add);
-                        break;
+                //record feature
+                //(int? result, string methodName) = PerformCalculation(choice, firstValue, secondValue, calculator);
 
-                    case 's':
-                        result = calculator.Subtract(firstValue, secondValue);
-                        methodName = nameof(calculator.Subtract);
-                        break;
-
-                    case 'm':
-                        result = calculator.Multiply(firstValue, secondValue);
-                        methodName = nameof(calculator.Multiply);
-                        break;
-
-                    case 'd':
-                        result = calculator.Divide(firstValue, secondValue);
-                        methodName = nameof(calculator.Divide);
-                        break;
-
-                    default:
-                        result = null;
-                        methodName = null;
-                        Console.WriteLine("please enter a proper choice");
-                        break;
-                }
+                CalculationResult opResult = PerformCalculation(choice, firstValue, secondValue, calculator);             
 
                 //5. printing result along with method name
-                PrintResultWithMethodName(result, methodName);
+                //PrintResultWithMethodName(result, methodName);
+                PrintResultWithMethodName(opResult.Result, opResult.OperationName);
 
                 //6. asking user choice for continuation
-                GetUserDecisionForContinuation(toContinue);
+                GetUserDecisionForContinuation(ref toContinue);
 
             } while (toContinue != 'n');
+            return toContinue;
         }
 
         static void PrintMenu() => Console.WriteLine("1. Add(a)\n2. Subtract(s)\n3. Multiply(m)\n4. Divide(d)");
@@ -81,19 +69,52 @@ namespace CalculatorClientWithoutTopLevlStatement
             return value;
         }
 
-        //static void PerformCalculation(int choice, int firstValue, int secondValue)
-        //{
+        //static (int?,string) PerformCalculation(int choice, int firstValue, int secondValue, Calculator calculator)
+        static CalculationResult PerformCalculation(int choice, int firstValue, int secondValue, Calculator calculator)
+        {
+            int? result;
+            string methodName = null;
 
-        //}
+            switch (choice)
+            {
+                case 'a':
+                    result = calculator.Add(firstValue, secondValue);
+                    methodName = nameof(calculator.Add);
+                    break;
+
+                case 's':
+                    result = calculator.Subtract(firstValue, secondValue);
+                    methodName = nameof(calculator.Subtract);
+                    break;
+
+                case 'm':
+                    result = calculator.Multiply(firstValue, secondValue);
+                    methodName = nameof(calculator.Multiply);
+                    break;
+
+                case 'd':
+                    result = calculator.Divide(firstValue, secondValue);
+                    methodName = nameof(calculator.Divide);
+                    break;
+
+                default:
+                    result = null;
+                    methodName = null;
+                    Console.WriteLine("please enter a proper choice");
+                    break;
+            }
+            //return (result,methodName);
+            return new CalculationResult(result, methodName);
+        }
 
         static void PrintResultWithMethodName(int? result, string methodName) => Console.WriteLine(result.HasValue ? $"{methodName} Result : {result.Value}" : "No calculation performed");
 
-        static void GetUserDecisionForContinuation(char decision)
+        static void GetUserDecisionForContinuation(ref char decision)
         {
             Console.Write("enter n/N to terminate or else to continue: ");
             decision = char.Parse(Console.ReadLine());
             if (char.IsUpper(decision))
                 decision = char.ToLower(decision);
         }
-    }
+    }    
 }

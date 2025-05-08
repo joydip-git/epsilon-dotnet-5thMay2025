@@ -5,7 +5,7 @@ Note: do not pass any string to nameof() operator, since it produces the string 
 
 3. nullable value type: whereas in general null as value can't be stored in value type variable, but this Nullabl<T> allows you to assign null as value to the variable of Nullable<T>
 
-4. possible "overloaded" versions of Main method:
+4. possible versions of Main method:
 
 a. Main method with argument (for command line arguments)
 static void Main(string[] args){}
@@ -15,7 +15,25 @@ b. Main method without argument (for command line arguments)
 static void Main(){}
 static int Main(){return 0;}
 
-C# feature - local function
+5. Debugging:
+line by line debugging: Press F11 key and continue pressing  that once the focus is on the first line in Main method
+windows:
+1. Locals window: it shows all the local variables of the method/scope that is currently beubg debugged and their current values too
+2. Autos window: it shows all the local variables of the current or previously executed lines in the method/scope that is currently being debugged and their current values too
+3. Watch window: it does not display anything by default. It is for you to type a variable name (from the current context - the line or the scope currently being debugged) and then get the value of it
+4. QuickWatch window: like watch window. but to get that right click on the variable that you would like to watch and click on the "QuickWatch" option from the context menu.
+
+6. Passing arguments to Method:
+in case of ONLY value type data type:
+Pass By Value: whenever a function/method is called and a value is passed as an argument, generally the value, if value type, will be "passed by value", i.e., a copy of the actual value will be passed to the method, NOT the original memory where the actual value is stored. hence, any change in the called method will be localized. It will not affect the original value.
+
+Pass By Reference: whenever a function/method is called and a value can be passed by reference (in case of ONLY value type data type), i.e., instead of a copy of the actual value, the reference of the memory block where the actual value is stored, will be passed to the method as an argument.
+in C# you can do that by using "ref" keyword:
+1. while declaring the argument of the method
+2. also while passing a parameter to that method
+any change in the local variable of the called method will affect the original memory block where the actual value is stored
+
+7. C# feature - local function
 
 
 in order to extend the existing type (class, interface etc.) without modifying the original source code, you can use a feature of C#, known as "Extension Method"
