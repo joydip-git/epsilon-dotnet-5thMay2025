@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\bin\Debug\net8.0\CSharpFeaturesApp.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\bin\Debug\net8.0\CSharpFeaturesApp.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\bin\Debug\net8.0\CSharpFeaturesApp.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\bin\Debug\net8.0\CSharpFeaturesApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\bin\Debug\net8.0\CSharpFeaturesApp.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\refint\CSharpFeaturesApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\CSharpFeaturesApp.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CSharpFeaturesApp\obj\Debug\net8.0\ref\CSharpFeaturesApp.dll

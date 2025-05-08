@@ -1,0 +1,32 @@
+1. documentation comment
+
+2. nameof(<name>) operator
+Note: do not pass any string to nameof() operator, since it produces the string out of the name itself
+
+3. nullable value type: whereas in general null as value can't be stored in value type variable, but this Nullabl<T> allows you to assign null as value to the variable of Nullable<T>
+
+4. possible "overloaded" versions of Main method:
+
+a. Main method with argument (for command line arguments)
+static void Main(string[] args){}
+static int Main(string[] args){return 0;}
+
+b. Main method without argument (for command line arguments)
+static void Main(){}
+static int Main(){return 0;}
+
+C# feature - local function
+
+
+in order to extend the existing type (class, interface etc.) without modifying the original source code, you can use a feature of C#, known as "Extension Method"
+
+
+products
+pid     pname 	price (decimal(18,2))
+1	NULL	NULL
+
+int pid = 1
+string name = null
+Nullable<decimal> price = null
+
+

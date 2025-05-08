@@ -1,0 +1,14 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\bin\Debug\net8.0\CalculatorLibrary.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\bin\Debug\net8.0\CalculatorLibrary.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\bin\Debug\net8.0\CalculatorLibrary.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\bin\Debug\net8.0\CalculatorLibrary.xml
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\refint\CalculatorLibrary.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.xml
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-4\CalculatorApp\CalculatorLibrary\obj\Debug\net8.0\ref\CalculatorLibrary.dll
