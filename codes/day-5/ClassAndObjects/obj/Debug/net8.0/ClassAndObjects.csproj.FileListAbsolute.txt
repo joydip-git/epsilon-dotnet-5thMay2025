@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\bin\Debug\net8.0\ClassAndObjects.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\bin\Debug\net8.0\ClassAndObjects.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\bin\Debug\net8.0\ClassAndObjects.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\bin\Debug\net8.0\ClassAndObjects.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\bin\Debug\net8.0\ClassAndObjects.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\refint\ClassAndObjects.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ClassAndObjects.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\ClassAndObjects\obj\Debug\net8.0\ref\ClassAndObjects.dll

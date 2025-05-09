@@ -33,11 +33,15 @@ Developer class structure:
 		TotalPay for totalPay -> readonly property
 		
 	Functionalities:
-		CalculateSalary:
+		CalculateSalary: calculates the total salary (simply add the salary parts) and assigns the same to the totalPay 
 			arguments: NA
 			return value: void
 
+
+
 C. Console App: Add a new console app in the solution, named: PayrollApp.UserInterface
+
+add reference to the PayrollApp.Entities library project
 
 in the Main method of Program class in Program.cs, create at least one object of each class and assign the values to the data members. Then calculate the total pay and then print the same.
 

@@ -14,3 +14,65 @@ b. multi-diemansional array:
 
 c. jagged array: (array of arrays)
 <data-type>[][] <arr-ref-var-name> = new <data-type>[<size>][];
+
+Array class has lots of static methods:
+
+Array.Sort(...);
+Array.Reverse(...);
+etc.
+
+<array-ref>.CopyTo(....);
+
+
+OOP:
+Class???
+Object???
+
+constructor: 
+a special method of the class without any return type, not even void.
+name of this method is same as that of the class.
+its job is to assign all the data members with values (default or user supplied).
+
+this keyword => reference to the current instance/object within the class code
+
+named arguments: passing the value to a method by mentioning the name of the parameter of the method. this helps you to pass the value to a method in arbitrary manner.
+
+access specifier of the members of the class:
+private (default) => within the class itself
+public => from anywhere (within the class and outside the class through reference variable to an instance of that class)
+protected => ithin the class itself as well as from the child class
+
+self study about "properties" of class
+
+property with ONLY get accessor: read-only property
+public string Name { get {return name; }}
+
+property with ONLY set accessor: write-only property
+public string Name { set {name=value; }}
+
+database: epsilondb
+tables: employees
+
+empid(pk,int,identity)	empname(varchar(50) empaddress(varchar(max))  emodob (date) empmobile(varchar(10))  empemail (varchar(30))
+------------------------------------------------------------
+1001	karthik	 bangalore ...............................
+1002	chandra	 chennai   .................................
+
+
+	name
+	address
+	mobile
+	email
+	dob
+	
+
+
+
+
+
+
+
+
+
+
+

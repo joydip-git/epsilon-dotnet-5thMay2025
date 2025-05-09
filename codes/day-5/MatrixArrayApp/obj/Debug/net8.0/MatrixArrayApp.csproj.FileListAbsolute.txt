@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\bin\Debug\net8.0\MatrixArrayApp.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\bin\Debug\net8.0\MatrixArrayApp.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\bin\Debug\net8.0\MatrixArrayApp.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\bin\Debug\net8.0\MatrixArrayApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\bin\Debug\net8.0\MatrixArrayApp.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\refint\MatrixArrayApp.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\MatrixArrayApp.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-5\MatrixArrayApp\obj\Debug\net8.0\ref\MatrixArrayApp.dll
