@@ -24,16 +24,21 @@ windows:
 4. QuickWatch window: like watch window. but to get that right click on the variable that you would like to watch and click on the "QuickWatch" option from the context menu.
 
 6. Passing arguments to Method:
-in case of ONLY value type data type:
+
+[in case of ONLY value type data type:]
+
 Pass By Value: whenever a function/method is called and a value is passed as an argument, generally the value, if value type, will be "passed by value", i.e., a copy of the actual value will be passed to the method, NOT the original memory where the actual value is stored. hence, any change in the called method will be localized. It will not affect the original value.
 
 Pass By Reference: whenever a function/method is called and a value can be passed by reference (in case of ONLY value type data type), i.e., instead of a copy of the actual value, the reference of the memory block where the actual value is stored, will be passed to the method as an argument.
+
 in C# you can do that by using "ref" keyword:
 1. while declaring the argument of the method
 2. also while passing a parameter to that method
+
 any change in the local variable of the called method will affect the original memory block where the actual value is stored
 
 7. C# feature - local function
+8. record (C# feature)
 
 
 in order to extend the existing type (class, interface etc.) without modifying the original source code, you can use a feature of C#, known as "Extension Method"

@@ -1,0 +1,43 @@
+Enhancement-1:
+------------------------------
+Now, Add one more class file: Hr.cs with a class inside it: Hr
+
+Add a new class Hr in the class file Hr.cs in the library application: PayrollApp.Entities
+Hr class structure:
+	Data Members:
+		id (int) -> should be assigned ONLY through constructor
+		name (string)
+		basicPay (decimal)
+		daPay (decimal)
+		hraPay (decimal)
+		gratuityPay (decimal)
+		totalPay (decimal) -> will be set by a method, will NOT be passed from outside the class
+
+	Constructors:
+		default ctor
+		parameterized ctor -> will assign value to all data members, except the "totalPay"
+	
+	Properties:
+		Id for id -> readonly property
+		Name for name
+		BasicPay for basicPay
+		DaPay for daPay
+		HraPay for hraPay
+		GratuityPay for gratuityPay
+		TotalPay for totalPay -> readonly property
+		
+	Functionalities:
+		CalculateSalary:
+			arguments: NA
+			return value: void
+
+Now, console app, create an array to store references of the both Developer and Hr objects and their calculated salary will be displayed
+
+1. ask user about the umber of records to create.
+2. create an array wuth the number of records mentioned by user
+3. iterate through the array and every time
+	a. print a menu to the user and ask about whether to create instance of Developer aor Hr. based on the choice, that type of object will be created
+	b. store the reference of the object in the array
+
+4. now again iterate through the array and print the salary of every employee along with the name
+	
