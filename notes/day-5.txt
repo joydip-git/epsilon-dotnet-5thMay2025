@@ -1,0 +1,16 @@
+Array: 
+Basic data structure which is available in every programming language
+Collection of homogeneous elements (similar type)
+Array in C# is a class
+
+Array in C#:
+------------------
+a. single diemansional array:
+<data-type>[] <arr-ref-var-name> = new <data-type>[<size>];
+default values of different data types: int (0), bool (false), reference type (null)
+
+b. multi-diemansional array:
+<data-type>[,] <arr-ref-var-name> = new <data-type>[<row-count>,<element-count-per-row>];
+
+c. jagged array: (array of arrays)
+<data-type>[][] <arr-ref-var-name> = new <data-type>[<size>][];
