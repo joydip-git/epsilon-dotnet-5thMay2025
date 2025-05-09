@@ -8,9 +8,9 @@ means: next highest goes to the left of the middle and the subsequent next highe
 Example: 
 two dim matrix array: 3*3
 [
-	50,20,30,
-	10,40,90,
-	70,60,80
+	0 -> 50,20,30,
+	1 -> 10,40,90,
+	2 -> 70,60,80
 ]
 
 produce a single dimensional array with the values from two dimensional array organized in the following manner (let-right)
