@@ -1,8 +1,10 @@
 ﻿Console.WriteLine("inheritance");
 
 B objB = new(-1, -1) { AData = 100, BData = 200 };
-Console.WriteLine($"{nameof(objB.AData)}:{objB.AData}");
-Console.WriteLine($"{nameof(objB.BData)}:{objB.BData}");
+//Console.WriteLine($"{nameof(objB.AData)}:{objB.AData}");
+//Console.WriteLine($"{nameof(objB.BData)}:{objB.BData}");
+
+Console.WriteLine(objB.PrintData());
 
 class A
 {
@@ -22,7 +24,7 @@ class A
         set => aData = value;
     }
 
-    //public int GetData()=> aData;
+    public string PrintData() => $"A Data: {aData}";
 }
 class B : A
 {
@@ -41,4 +43,6 @@ class B : A
         get => bData;
         set => bData = value;
     }
+
+    public string PrintData() => $"{base.PrintData()}, B Data: {bData}";
 }
