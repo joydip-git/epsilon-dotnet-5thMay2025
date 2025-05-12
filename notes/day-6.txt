@@ -83,3 +83,48 @@ can be used to declare a data member [as well as local variable of a method, too
 const data member (or variable) value must be assigned while declaring it and can't be changed in the application ever again.
 
 const data members are NOT PART OF ANY INSTANCE. they are shared by every instance (by default const data members are static). Hence in order to access them from outside the class, use Class Name, NOT INSTANCE VARIABLE.
+
+Inheritance:
+---------------------------
+reusablility
+extensions
+
+
+a less accessible base class can't have more accessible child class, i.e., if the base class in "internal", the child class can't be "public"
+
+internal class A
+{}
+internal class B:A{}
+
+public class A
+{}
+internal class B:A{}
+
+public class A
+{}
+public class B:A{}
+
+//not possible
+internal class A
+{}
+public class B:A{}
+
+C# supports:
+1. single 
+A <- B
+
+2. multi-level
+A <- B <- C <- D
+
+Note: multiplr inheritance is NOT supported in C#
+A, B <- C
+
+
+constructor execution sequence:
+when an instance of any child class is created...
+	a. the default ctor of the base class is invoked
+	b. the ctor (Whichever you called) of the child class is invoked
+
+Note: if you want, you can explicitly invoke a parameterized ctor of the base class instead of default ctor of base class, using "base" keyword from the ctor of the child class.
+"base" keyword refers to the immediate base class of the current child class
+

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-6\\PayrollApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{241335E8-0E1D-4AA6-9064-0E9057F972D2}|PayrollApp.Entities\\PayrollApp.Entities.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-6\\payrollapp\\payrollapp.entities\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{241335E8-0E1D-4AA6-9064-0E9057F972D2}|PayrollApp.Entities\\PayrollApp.Entities.csproj|solutionrelative:payrollapp.entities\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EDC82C8-65A1-47E0-BAF5-7165596A9A88}|PayrollApp.UserInterface\\PayrollApp.UserInterface.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-6\\payrollapp\\payrollapp.userinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EDC82C8-65A1-47E0-BAF5-7165596A9A88}|PayrollApp.UserInterface\\PayrollApp.UserInterface.csproj|solutionrelative:payrollapp.userinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{241335E8-0E1D-4AA6-9064-0E9057F972D2}|PayrollApp.Entities\\PayrollApp.Entities.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-6\\payrollapp\\payrollapp.entities\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{241335E8-0E1D-4AA6-9064-0E9057F972D2}|PayrollApp.Entities\\PayrollApp.Entities.csproj|solutionrelative:payrollapp.entities\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{241335E8-0E1D-4AA6-9064-0E9057F972D2}|PayrollApp.Entities\\PayrollApp.Entities.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-6\\payrollapp\\payrollapp.entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "PayrollApp.Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T05:32:02.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T05:32:02.044Z"
             },
             {
               "$type": "Document",
@@ -51,31 +50,30 @@
               "RelativeToolTip": "PayrollApp.Entities\\RegularProperties.txt",
               "ViewState": "AgIAACIAAAAAAAAAAAA2wCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-12T05:22:52.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T05:22:52.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-6\\PayrollApp\\PayrollApp.UserInterface\\Program.cs",
               "RelativeDocumentMoniker": "PayrollApp.UserInterface\\Program.cs",
               "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-6\\PayrollApp\\PayrollApp.UserInterface\\Program.cs",
               "RelativeToolTip": "PayrollApp.UserInterface\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAACyAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T04:46:21.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Developer.cs",
               "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-6\\PayrollApp\\PayrollApp.Entities\\Developer.cs",
               "RelativeDocumentMoniker": "PayrollApp.Entities\\Developer.cs",
               "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-6\\PayrollApp\\PayrollApp.Entities\\Developer.cs",
               "RelativeToolTip": "PayrollApp.Entities\\Developer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T04:36:58.461Z",
               "EditorCaption": ""

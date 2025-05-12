@@ -18,3 +18,14 @@ Console.WriteLine($"A {nameof(Developer)} named: {developer.Name} with Id: {deve
 
 //Console.WriteLine(Math.PI);
 
+static Developer Create()
+{
+    Console.Write("enter id: ");
+    int id = int.Parse( Console.ReadLine() );
+
+    Console.Write("enter name: ");
+    string name = Console.ReadLine();
+
+
+}
+

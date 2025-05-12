@@ -1,8 +1,7 @@
 Enhancement-1:
 ------------------------------
-Now, Add one more class file: Hr.cs with a class inside it: Hr
-
 Add a new class Hr in the class file Hr.cs in the library application: PayrollApp.Entities
+
 Hr class structure:
 	Data Members:
 		id (int) -> should be assigned ONLY through constructor
@@ -31,12 +30,14 @@ Hr class structure:
 			arguments: NA
 			return value: void
 
-Now, console app, create an array to store references of the both Developer and Hr objects and their calculated salary will be displayed
+Now, in the existing console app, create an array to store references of the both Developer and Hr objects and later display their calculated salary by iterating through the array
 
 1. ask user about the umber of records to create.
-2. create an array wuth the number of records mentioned by user
+2. create a single-dimensional array wuth the number of records mentioned by user
+
 3. iterate through the array and every time
-	a. print a menu to the user and ask about whether to create instance of Developer aor Hr. based on the choice, that type of object will be created
+	a. print a menu to the user and ask about whether to create instance of Developer or Hr. based on the choice, that type of object will be created.
+	b. while creating the instances, you will accept values from user
 	b. store the reference of the object in the array
 
 4. now again iterate through the array and print the salary of every employee along with the name

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayrollApp.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab8b21c5f8d9c87e816b098ee54ee6e4455c8202")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb096e2adeea22985b590fe34c5b73ec9347eae0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayrollApp.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayrollApp.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
