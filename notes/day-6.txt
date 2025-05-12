@@ -1,0 +1,85 @@
+properties:
+---------------------
+need:
+----------
+1. ctor is an one-way street, i.e., you can ONLY pass values to the constructor so that those values can be assigned to the data members. ctor can't have any return type, NOT EVEN void. hence if you need to update any value of any data member you can't again use constructor, since that means you are trying to create a new instance.
+2. also to return value from individual data members (as well as assigning value to individual data members one at a time)
+
+Properties are collection of two methods: get and set 
+
+value => aut-declared local variable of set accessor. this stores the value that you assign to the property
+
+   public string Name
+   {
+       get => name;
+       set => name = value;
+   }
+
+or,
+public string GetName() => name;
+public void SetName(string value) => name = value;
+
+by default the access specifier for "get" and "set" accessors is public, since the property is public
+but you can change the access specifier for "get" and "set" accessors
+
+Note: by default the debugging of the property's set and get accessor might be disabled.
+enable it by going to tool>options>debugging>general and uncheck the checkbox "Step over properties and operators"
+
+Constructors:
+--------------------
+classes will have default ctor, generally you don't write it.
+but if you explicitly write any parameterized ctor, then the default ctor will not be available in the class. that time, you have to write the default ctor explicitly.
+
+C# feature - readonly keyword:
+--------------------------------------
+if you want some data members to be initialized ONLY through CONSTRUCTOR, not any other ways (through properties of some other methods etc.), then mark the data member with "readonly" keyword.
+
+C# feature - optional argument with default value:
+-------------------------------------------------------
+in a method some arguments can be made optional, i.e., the value for them is not necessary to be passed when the method is called. this is possible if those arguments are assigned with some defautl value in the method declaration.
+Note:
+-----
+all the optional arguemts must be placed after the mandatory arguments in the method declaration.
+
+
+data abstraction in class:
+-----------------------------------
+hiding the data members (memory block where the data is stored) from outside the class
+
+
+access specifiers of class: public and internal (default)
+------------------------------------------------------------
+
+internal: any type is accessible within the declaring application, NOT FROM OUTSIDE the application.
+
+public: any type is accessible within the declaring application as well as FROM OUTSIDE the application.
+
+access specifiers of class members: 
+__________________________________________
+private (default), protected, public
+
+private: member of the class is accessible from WITHIN the class only.
+
+public: member of the class is accessible from WITHIN the class as well as from outside the class (from within the child class as well as through instance variable/class name).
+
+protected: member of the class is accessible from WITHIN the class as well as from within the child class ONLY (not through instance variable/class name) 
+
+
+static member:
+------------------
+any member (not only data, even methods, properties etc.) if decalred with static keyword, that means it is NOT PART OF ANY INSTANCE rather it shared across instances.
+It can be accessed with class name, not through instance variable
+
+differences between static and instance:
+------------------------------------------------
+static members are accessed with class name, and instance members are accessed with instance variable name.
+static members contain common value for every instance of the class, whereas instance members store inidividually different values for every instance.
+static members can't access instance members, where as from instance member you can access static members
+
+const (constant):
+-------------------------
+can be used to declare a data member [as well as local variable of a method, too].
+
+const data member (or variable) value must be assigned while declaring it and can't be changed in the application ever again.
+
+const data members are NOT PART OF ANY INSTANCE. they are shared by every instance (by default const data members are static). Hence in order to access them from outside the class, use Class Name, NOT INSTANCE VARIABLE.

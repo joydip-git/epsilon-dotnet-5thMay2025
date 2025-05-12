@@ -1,0 +1,72 @@
+﻿namespace PayrollApp.Entities
+{
+    public class Developer
+    {
+        int id;
+        string name;
+        decimal basicPay;
+        decimal daPay;
+        decimal hraPay;
+        decimal incentivePay;
+        decimal totalPay;
+
+        public Developer()
+        {
+
+        }
+
+        public Developer(int id, string name, decimal basicPay, decimal daPay, decimal hraPay, decimal incentivePay)
+        {
+            this.id = id;
+            this.name = name;
+            this.basicPay = basicPay;
+            this.daPay = daPay;
+            this.hraPay = hraPay;
+            this.incentivePay = incentivePay;
+        }
+
+        //public int Id
+        //{
+        //    get { return id; }
+        //}
+        //public int Id
+        //{
+        //    get => id;
+        //}
+        public int Id => id;
+
+        public string Name
+        {
+            get => name;
+            set => name = value;
+        }
+
+        public decimal BasicPay
+        { 
+            get => basicPay; 
+            set => basicPay = value; 
+        }
+
+        public decimal DaPay 
+        {
+            get => daPay; 
+            set => daPay = value; 
+        }
+
+        public decimal HraPay 
+        { 
+            get => hraPay; 
+            set => hraPay = value; 
+        }
+
+        public decimal IncentivePay 
+        { 
+            get => incentivePay; 
+            set => incentivePay = value; 
+        }
+
+        //public decimal TotalPay { get => totalPay; }
+        public decimal TotalPay => totalPay;      
+
+    }
+}
