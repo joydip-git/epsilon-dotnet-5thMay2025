@@ -126,5 +126,15 @@ when an instance of any child class is created...
 	b. the ctor (Whichever you called) of the child class is invoked
 
 Note: if you want, you can explicitly invoke a parameterized ctor of the base class instead of default ctor of base class, using "base" keyword from the ctor of the child class.
-"base" keyword refers to the immediate base class of the current child class
 
+"base" keyword refers to the immediate base class of the current child class.
+you can invoke any public member of immediate base class from child class using base keyword, including constructor, property, method
+
+class B:A{
+public B(int aData, int bData):A(aData){}
+
+public void CommonMethod()
+{
+   base.CommonMethod();
+}
+}
