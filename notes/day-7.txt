@@ -1,6 +1,9 @@
 polymorphism:
+----------------
 	dynamic/run time:
 	_________________________
+	method overrding:
+
 	if the inherited method from base class is re-implemented in different child class in different way, then the method is said to be polymorphed and the invocation of those child class method during runtime, depending on which child class object has been created, is known as dynamic polymorphism.
 	in C#, the base class method should be declared with "virtual" and the child class, same method, must be declared with "override" keyword, to facilitate dynamic polymorphism. 
 	since the method from which child class will be invoked is decided during runtime (since during runtime objects are created), hence the name "dynamic" or "runtime" polymorphism.
@@ -11,3 +14,71 @@ polymorphism:
 	IL code => JIT Compiler => MLC => execution starts 	[virtual/override keyword will overwrite the compiler instruction and corresponding child class method will be invoked]
 
 	static/compile time:
+	-------------------------------
+	a. method overloading:
+
+	here the polymorphed methos will be part of the same class, no inheritance involved.
+	which method will be called is decided during compilation time itself and runtime will simply follow the instruction set by compiler.
+	the polymorphed methods will be differentiated by:
+	a. number of arguments
+	b. data type of arguments
+	c. position of the arguments
+	in the method.
+
+	Note: return type of the method does not play any role in method overloading
+
+	b. operator overloading
+
+	+ => 12+13 => 25 
+	+ => "12"+"13" => "1213" //"12".Conact("13");
+
+abstract class:
+--------------------------------
+a class with at least one abstract member (method or property, NOT data member or cnstructor)
+the member MUST be declared with "abstract" keyword, as well as the class
+side effect: the object of abstract class can't be created,
+so that you even by mistake do not end up calling the abstract member.
+
+abstract class is inherited in the child class and the child class MUST implement all the abstract members of the abstract base class, otherwise they become abstract class and must be marked with "abstract"
+
+abstract members are by default "virtual", hence in the child class while implemeting them, still you have to use "override" keyword
+
+an abstract class can have any non-abstract members too.
+
+DataAcces da = new();//not possible
+da.GetData();//not possible
+
+
+Interface:
+-------------------------
+interface is nothing but an abstract class where everything is abstract.
+	an interface can't have any non-abstract members.
+	an interface can't have explicit data member, constructor etc.
+	an interface can have only properties and methods, that too are abstract
+
+by default the members of the interface are public and abstract, hence no need to use those keywords with the members of the interface
+
+like abstract class, an instance of interface can't be created
+
+a class implemting the interface, MUST implement all members of the interface. Otherwise, the class will become an abstract class and must be declared with abstract keyword.
+unlike abstract class, while impleneting the members of an interface, in a class, you DON'T need to use "override" keyword.
+
+you can implement more than one interface in a class, whereas you can't inherit from more than one class (whether concrete or abstract) in a class.
+
+Note: 
+---------------------------------------------
+when you have data and functionalities common between some classes in the s/w architecture, use a concrete class as base type
+
+when you have data and functionalities common between some classes in the s/w architecture, but some functionalities do not have code, use an abstract class as base type
+
+when you have ONLY functionalities common between some classes in the s/w architecture, and all those functionalities do not have code, use an interface as base type
+
+
+Professor -> name, number of books published
+number of books published>=5 then the professor is an outstanding professor
+
+Student -> name, marks obtianed
+marks obtianed>=85 then the student is an outstanding student
+
+Circle => radius => pi value * radius*radius
+Traingle => tbase, theight => 0.5 * tbase * theight

@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\bin\Debug\net8.0\DataAccessDemo.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\bin\Debug\net8.0\DataAccessDemo.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\bin\Debug\net8.0\DataAccessDemo.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\bin\Debug\net8.0\DataAccessDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\bin\Debug\net8.0\DataAccessDemo.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\refint\DataAccessDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\DataAccessDemo.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\DataAccessDemo\obj\Debug\net8.0\ref\DataAccessDemo.dll

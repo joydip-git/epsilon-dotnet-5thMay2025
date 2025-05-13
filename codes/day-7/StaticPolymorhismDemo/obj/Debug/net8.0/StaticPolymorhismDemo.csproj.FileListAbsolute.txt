@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\bin\Debug\net8.0\StaticPolymorhismDemo.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\bin\Debug\net8.0\StaticPolymorhismDemo.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\bin\Debug\net8.0\StaticPolymorhismDemo.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\bin\Debug\net8.0\StaticPolymorhismDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\bin\Debug\net8.0\StaticPolymorhismDemo.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\refint\StaticPolymorhismDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\StaticPolymorhismDemo.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\StaticPolymorhismDemo\obj\Debug\net8.0\ref\StaticPolymorhismDemo.dll

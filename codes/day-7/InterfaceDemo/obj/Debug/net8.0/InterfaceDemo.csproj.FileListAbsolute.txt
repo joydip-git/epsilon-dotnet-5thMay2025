@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\bin\Debug\net8.0\InterfaceDemo.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\refint\InterfaceDemo.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\InterfaceDemo.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\InterfaceDemo\obj\Debug\net8.0\ref\InterfaceDemo.dll
