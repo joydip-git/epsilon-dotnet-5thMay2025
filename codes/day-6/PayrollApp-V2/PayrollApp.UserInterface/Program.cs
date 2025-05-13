@@ -55,7 +55,11 @@ static Employee CreateEmployee(int choice)
 
 }
 
-static Employee[] CreateStorage(int size) => new Employee[size];
+static Employee[] CreateStorage(int size)
+{
+    Employee[] employees = new Employee[size];
+    return employees;
+}
 
 static void PrintMenu() => Console.WriteLine("1. Developer\n2. Hr");
 

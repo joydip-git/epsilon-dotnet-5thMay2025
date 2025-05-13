@@ -71,7 +71,7 @@
         #endregion
 
         #region Methods
-        public void CalculateSalary() => totalPay = basicPay + daPay + hraPay;
+        public virtual void CalculateSalary() => totalPay = basicPay + daPay + hraPay;
         #endregion
     }
 }

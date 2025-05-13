@@ -10,3 +10,15 @@ D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp\PayrollApp.Entities
 D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp\PayrollApp.Entities\obj\Debug\net8.0\refint\PayrollApp.Entities.dll
 D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.pdb
 D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp\PayrollApp.Entities\obj\Debug\net8.0\ref\PayrollApp.Entities.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\bin\Debug\net8.0\PayrollApp.Entities.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\bin\Debug\net8.0\PayrollApp.Entities.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\bin\Debug\net8.0\PayrollApp.Entities.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\refint\PayrollApp.Entities.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\PayrollApp.Entities.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-6\PayrollApp-V2\PayrollApp.Entities\obj\Debug\net8.0\ref\PayrollApp.Entities.dll

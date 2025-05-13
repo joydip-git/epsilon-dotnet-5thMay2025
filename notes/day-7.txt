@@ -1,0 +1,13 @@
+polymorphism:
+	dynamic/run time:
+	_________________________
+	if the inherited method from base class is re-implemented in different child class in different way, then the method is said to be polymorphed and the invocation of those child class method during runtime, depending on which child class object has been created, is known as dynamic polymorphism.
+	in C#, the base class method should be declared with "virtual" and the child class, same method, must be declared with "override" keyword, to facilitate dynamic polymorphism. 
+	since the method from which child class will be invoked is decided during runtime (since during runtime objects are created), hence the name "dynamic" or "runtime" polymorphism.
+
+	SC =>   compiler (Roslyn)     => IL Code
+	     [call base class method]
+
+	IL code => JIT Compiler => MLC => execution starts 	[virtual/override keyword will overwrite the compiler instruction and corresponding child class method will be invoked]
+
+	static/compile time:

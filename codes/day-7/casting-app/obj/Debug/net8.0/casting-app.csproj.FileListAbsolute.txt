@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\bin\Debug\net8.0\casting-app.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\bin\Debug\net8.0\casting-app.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\bin\Debug\net8.0\casting-app.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\bin\Debug\net8.0\casting-app.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\bin\Debug\net8.0\casting-app.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\refint\casting-app.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\casting-app.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-7\casting-app\obj\Debug\net8.0\ref\casting-app.dll

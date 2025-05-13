@@ -28,10 +28,10 @@
         #endregion
 
         #region Methods
-        public void CalculateSalary()
+        public override void CalculateSalary()
         {
             base.CalculateSalary();
-            TotalPay += IncentivePay;
+            TotalPay += incentivePay;
         }
         #endregion
     }

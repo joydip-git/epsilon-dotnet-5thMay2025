@@ -13,7 +13,8 @@
         }
 
         //optional argument with default value
-        public Hr(int id, string name = null, decimal basicPay = 0, decimal daPay = 0, decimal hraPay = 0, decimal gratuityPay = 0) : base(id, name, basicPay, daPay, hraPay)
+        public Hr(int id, string name = null, decimal basicPay = 0, decimal daPay = 0, decimal hraPay = 0, decimal gratuityPay = 0) :
+            base(id, name, basicPay, daPay, hraPay)
         {
 
             this.gratuityPay = gratuityPay;
@@ -29,7 +30,11 @@
         #endregion
 
         #region Methods
-        public void CalculateSalary() => TotalPay = BasicPay + DaPay + HraPay + gratuityPay;
+        public override void CalculateSalary()
+        {
+            base.CalculateSalary();
+            TotalPay += gratuityPay;
+        }
         #endregion
     }
 }
