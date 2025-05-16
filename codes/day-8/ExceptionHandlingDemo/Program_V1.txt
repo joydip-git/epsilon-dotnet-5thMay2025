@@ -1,0 +1,59 @@
+﻿using CalculationLibrary;
+//public void Try()
+try
+{
+    //int value = 12;
+    //int divisor = 0;
+
+    //int result = value / divisor;
+    Calculation calculation = new Calculation();
+    int result = calculation.Divide(12, 0);
+    Console.WriteLine(result);
+
+}
+//public void Catch(DivideByZeroException ex)
+catch (DivideByZeroException ex)
+{
+    Console.WriteLine($"you are in {nameof(DivideByZeroException)}");
+    Console.WriteLine($"Message: {ex.Message}");
+    Console.WriteLine($"Method: {ex.TargetSite}");
+    Console.WriteLine($"Source: {ex.Source}");
+    Console.WriteLine($"Stack info: {ex.StackTrace}");
+}
+//public void Catch(DivideByZeroException ex)
+catch (ArgumentException ex)
+{
+    Console.WriteLine($"you are in {nameof(ArgumentException)}");
+    Console.WriteLine($"Message: {ex.Message}");
+    Console.WriteLine($"Method: {ex.TargetSite}");
+    Console.WriteLine($"Source: {ex.Source}");
+    Console.WriteLine($"Stack info: {ex.StackTrace}");
+}
+//as fail-safe option use generic catch block
+catch (Exception ex)
+{
+    Console.WriteLine($"Message: {ex.Message}");
+    Console.WriteLine($"Method: {ex.TargetSite}");
+    Console.WriteLine($"Source: {ex.Source}");
+    Console.WriteLine($"Stack info: {ex.StackTrace}");
+}
+
+/*
+static int Divide( int value, int divisor)
+{
+    try
+    {
+        int result = value / divisor;
+        return result;
+    }
+    catch (Exception)
+    {
+        throw;
+    }
+    //catch (DivideByZeroException ex)
+    //{
+    //    log before you rethrow
+    //    throw ex;
+    //}
+}
+*/

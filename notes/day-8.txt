@@ -1,0 +1,79 @@
+exception handling
+generic
+collections
+
+exception hanlding:
+	compilation errors
+	runtime errors:
+		divide a value by zero
+		trying to access value from an invalid index position of an array of collection
+		trying to access any member through a null reference variable
+		etc.
+
+	1. stops the execution  of your code at the line where there is an issue and creates an instance of a class that represents the error/issue (DivideByZeroException)
+	2. populates the object with error information
+	3. hands over (throws) the reference of the exception class object to you
+
+
+		Exception (top-level base class)
+a. SystemException: base class for all built-in system exception classes
+	
+	i. IndexOutOfRangeException
+	ii. NullReferenceException
+	iii. ArithmaticException
+		i. DivideByZeroException
+	iv. ArgumentException
+	etc.
+
+b. ApplicationException:base class for all custom execption classes that will be created by you for your application
+
+exception handling:
+	using try...catch block to catch exception that might be thrown from the code writte inside the try block
+
+Rules:
+	try does not exist alone. it has to be followed by either catch or finally block
+	a try might be followed by multiple catch blocks, but ONE finally block
+	if you want even you can write a catch block with Exception class. beging the base class for all the exception classes, it can hold reference of any child class instance (upcasting)
+	if you have multiple ctach blocks, the catch block with Exception class should be that last one.
+
+Exception ex = new DivideByZeroException();
+ex.
+
+catch(Exception ex)
+
+
+
+Exception => 
+	private string _message;
+	private Exception _innerException;
+
+	public Exception()
+	{
+		_message = "Error Occurred";
+	}
+	public Exception(string message)
+	{ 
+		_message = message;
+	}
+	public Exception(string message, Exception inner)
+	{
+		_message = message;
+		_inner = inner;
+	}
+
+	public virtual string Message { get => _message;}
+	public string InnerException { get => _inner;}
+
+ApplicationException:Exception => 
+	public Exception(){}
+	public Exception(string message):base(message){}
+	public Exception(string message, Exception inner):base(message,inner){}
+
+CalculationException:ApplicationException =>
+	public Exception():base("some calculation error occurred"){}
+	public Exception(string message):base(message){}
+	public Exception(string message, Exception inner):base(message,inner){}
+
+
+Funneling and Tunneling of exception
+

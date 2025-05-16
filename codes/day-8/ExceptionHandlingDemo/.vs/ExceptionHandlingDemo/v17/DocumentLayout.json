@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\ExceptionHandlingDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA9800-6C96-44A0-BC1A-EDE72A4AAA16}|ExceptionHandlingDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-8\\exceptionhandlingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AA9800-6C96-44A0-BC1A-EDE72A4AAA16}|ExceptionHandlingDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D295618B-FDE3-421B-A2EF-113348300948}|..\\CalculationLibrary\\CalculationLibrary.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-8\\calculationlibrary\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D295618B-FDE3-421B-A2EF-113348300948}|..\\CalculationLibrary\\CalculationLibrary.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-8\\calculationlibrary\\calculationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA9800-6C96-44A0-BC1A-EDE72A4AAA16}|ExceptionHandlingDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-8\\exceptionhandlingdemo\\program_v1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E0AA9800-6C96-44A0-BC1A-EDE72A4AAA16}|ExceptionHandlingDemo.csproj|solutionrelative:program_v1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program_V1.txt",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\ExceptionHandlingDemo\\Program_V1.txt",
+              "RelativeDocumentMoniker": "Program_V1.txt",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\ExceptionHandlingDemo\\Program_V1.txt",
+              "RelativeToolTip": "Program_V1.txt",
+              "ViewState": "AgIAACsAAAAAAAAAAAA2wDoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-16T05:54:18.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculationException.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\CalculationLibrary\\CalculationException.cs",
+              "RelativeDocumentMoniker": "..\\CalculationLibrary\\CalculationException.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\CalculationLibrary\\CalculationException.cs",
+              "RelativeToolTip": "..\\CalculationLibrary\\CalculationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T05:26:31.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculation.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\CalculationLibrary\\Calculation.cs",
+              "RelativeDocumentMoniker": "..\\CalculationLibrary\\Calculation.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\CalculationLibrary\\Calculation.cs",
+              "RelativeToolTip": "..\\CalculationLibrary\\Calculation.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T05:23:09.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\ExceptionHandlingDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-8\\ExceptionHandlingDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T04:47:19.298Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
