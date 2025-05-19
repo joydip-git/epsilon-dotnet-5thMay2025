@@ -1,6 +1,4 @@
 exception handling
-generic
-collections
 
 exception hanlding:
 	compilation errors
@@ -77,3 +75,94 @@ CalculationException:ApplicationException =>
 
 Funneling and Tunneling of exception
 
+finally => write code to clean up resources (closing file or database or web socket connection etc.). Otherwise you will cause memory leak in your app.
+
+Custom Exception class:
+	a. handle an error situation which can't be represented by any built-in exception class
+	b. wrapping the exception and throw back to the caller (funnelling and tunnelling)
+
+Data access from database in .NET: (ActiveX Data Object.NET)
+----------------------------------------------------------------
+Data Providers:
+
+Common data provider types:
+
+A. library: System.Data.dll
+namespace: System.Data
+
+absract types: (interfaces)
+IDbConnection, IDbCommand, IDbDataReader etc.
+
+B.library: System.Data.Common.dll
+namespace: System.Data.Common
+
+abstract types: (abstract base clases)
+DbConnection, DbCommand, DbDataReader etc.
+
+
+Database specific data providers:
+
+A. Sql Server: 
+library: Microsoft.Data.SqlClient.dll [old => System.Data.SqlClient.dll]
+namespace: Microsoft.Data.SqlClient [old => System.Data.SqlClient]
+Types:
+	SqlConnection//:DbConnection:IDbConnection
+	SqlCommand//:DbCommand:IDbCommand
+
+select query:
+	temporary storage for result set: SqlDataReader
+
+non-select query:
+	temporary storage for result set: NA	
+
+
+B. Oracle:
+library: Oracle.ManagedDataAccess.Core.dll [old=>System.Data.OracleClient.dll]
+namespace: Oracle.ManagedDataAccess.Client [old=> System.Data.OracleClient]
+Types:
+	OracleConnection
+	OracleCommand
+
+select query:
+	temporary storage for result set: OracleDataReader
+
+non-select query:
+	temporary storage for result set: NA	
+
+C. MS-Access: (OLE => Object Linking and Embedding)
+library: System.Data.OleDb.dll
+namespace: System.Data.OleDb
+Types:
+	OleDbConnection
+	OleDbCommand
+
+select query:
+	temporary storage for result set: OleDbDataReader
+
+non-select query:
+	temporary storage for result set: NA	
+
+	
+D. Any database: (Open database connectivity)
+library: System.Data.Odbc.dll
+namespace: System.Data.Odbc
+Types:
+	OdbcConnection
+	OdbcCommand
+
+select query:
+	temporary storage for result set: OdbcDataReader
+
+non-select query:
+	temporary storage for result set: NA		
+
+
+
+Working with SQL Server:
+-------------------------------
+download this package:
+library: Microsoft.Data.SqlClient.dll [old => System.Data.SqlClient.dll]
+command (via dotnet cli): dotnet add package Microsoft.Data.SqlClient --version 6.0.2
+
+to access the types from this package use the following namespace:
+namespace: Microsoft.Data.SqlClient [old => System.Data.SqlClient]

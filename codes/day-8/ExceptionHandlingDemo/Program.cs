@@ -1,10 +1,10 @@
 ﻿using CalculationLibrary;
+
+int result = 0;
 try
 {
     Calculation calculation = new Calculation();
-    int result = calculation.Divide(12, 0);
-    Console.WriteLine(result);
-
+    result = calculation.Divide(12, 0);       
 }
 catch (CalculationException ex)
 {
@@ -12,7 +12,8 @@ catch (CalculationException ex)
     Console.WriteLine($"Message: {ex.InnerException?.Message}");
     Console.WriteLine($"Method: {ex.InnerException?. TargetSite }");
     Console.WriteLine($"Source: {ex.InnerException?.Source}");
-    Console.WriteLine($"Stack info: {ex.InnerException?.StackTrace}");
+    //Console.WriteLine($"Stack info: {ex.InnerException?.StackTrace}");
+    Console.WriteLine(ex.StackTrace);
 }
 //as fail-safe option use generic catch block
 catch (Exception ex)
@@ -22,7 +23,10 @@ catch (Exception ex)
     Console.WriteLine($"Source: {ex.Source}");
     Console.WriteLine($"Stack info: {ex.StackTrace}");
 }
-
+finally
+{
+    Console.WriteLine(result);
+}
 /*
 static int Divide( int value, int divisor)
 {

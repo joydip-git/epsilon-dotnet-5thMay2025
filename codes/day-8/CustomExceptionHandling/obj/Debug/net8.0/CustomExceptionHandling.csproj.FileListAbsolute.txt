@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\bin\Debug\net8.0\CustomExceptionHandling.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\bin\Debug\net8.0\CustomExceptionHandling.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\bin\Debug\net8.0\CustomExceptionHandling.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\bin\Debug\net8.0\CustomExceptionHandling.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\bin\Debug\net8.0\CustomExceptionHandling.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\refint\CustomExceptionHandling.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\CustomExceptionHandling.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-8\CustomExceptionHandling\obj\Debug\net8.0\ref\CustomExceptionHandling.dll
