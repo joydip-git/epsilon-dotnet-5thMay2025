@@ -24,3 +24,47 @@ multiple values: SqlDataReader ExecuteReader()
 
 executing non-select query:
 int ExecuteNonQuery()
+
+solution: PMSApp
+library: PMSApp.Repository
+class: ProductDao
+methods:
+	List<Product>/HashSet<Product> GetProducts()
+
+console app: PMSApp.UserInterface
+add reference to the library PMSApp.Repository
+
+class: top-level statement (Program.cs)
+
+
+ProductDao dao = new ();
+dao.GetProducts()
+
+
+Collections:
+-------------------
+List<T>
+HashSet<T>
+	Add(item) //item.GetHashCode() => 11234567890
+
+Object class methods:
+----------------------------------
+virtual int GetHashCode()=> this.GetHashCode()
+virtual bool Equals(object obj) => return this == obj
+virtual string ToString()
+Type GetType()
+
+int x = 12;
+int y = 13;
+if(x.Equals(y))
+
+SortedList<string,HashSet<Product>>
+
+
+
+
+
+
+
+
+
