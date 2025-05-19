@@ -1,0 +1,26 @@
+Data Source=JOYDIP-PC\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+windows auth:
+----------------------
+server or data source=<server-name>
+Integrated Security=True 
+Encrypt=False
+TrustServerCertificate=True
+database or initial catalog=<name of db>
+
+sql server auth:
+----------------------
+server or data source=<server-name>
+user id=<> or uid=<>
+password=<> or pwd=<>
+Encrypt=False
+TrustServerCertificate=True
+database or initial catalog=<name of db>
+
+
+fetch data using SELECT query:
+single value: object ExecuteScalar()
+multiple values: SqlDataReader ExecuteReader()
+
+executing non-select query:
+int ExecuteNonQuery()

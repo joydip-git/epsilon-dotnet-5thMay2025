@@ -29,18 +29,21 @@ static void GetData()
     SqlConnection connection = null;
     SqlCommand command = null;
     SqlDataReader reader = null;
+    string connectionString = @"server=.\sqlexpress;database=epsilondatabase;integrated security=true;TrustServerCertificate=true";
+    string query = "select * from products";
     try
     {
-        connection = new SqlConnection("");
+        connection = new SqlConnection(connectionString);
         //command = connection.CreateCommand();
         command = new SqlCommand();
         command.Connection = connection;
-        command.CommandText = "";
+        command.CommandText = query;
+        //command.CommandType = CommandType.Text;
         //command.CommandType= CommandType.StoredProcedure;
         //command.Parameters.AddWithValue("",);
 
         connection.Open();
-        //Console.WriteLine(connection.State.ToString());
+        Console.WriteLine(connection.State.ToString());
 
         //executing SELECT query
         reader = command.ExecuteReader();
@@ -49,7 +52,14 @@ static void GetData()
         {
             while (reader.Read())
             {
-                Console.WriteLine(reader[""]);
+                //Console.Write((int)reader["productid"]);
+                //Console.Write("\t" + (string)reader["productname"]);
+                //Console.Write("\t" + (string)reader["productdesc"]);
+                //Console.Write("\t" + (decimal)reader["productprice"] + "\n");
+                Console.Write(reader.GetInt32("productid")+"\t");
+                Console.Write(reader.GetValue("productname") + "\t");
+                Console.Write(reader.GetFieldValue<decimal>("productprice") + "\t");
+                Console.Write(reader["productdesc"] + "\n");
             }
         }
     }
