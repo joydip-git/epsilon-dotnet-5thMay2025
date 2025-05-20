@@ -3,6 +3,7 @@ database name: epsilondatabase
 table: products
 
 solution: Epsilon.DotNet.PmsApp
+---------------------------------------
 
 data transfer object: a type/entity which is used in layered architecture to transfer data from one layer to another layer
 
@@ -34,3 +35,72 @@ class: top-level statement (Program.cs)
 
 ProductDao dao = new ();
 dao.GetAll();
+
+
+class Person
+{
+	private int id;
+	private DateTime dateOfBirth;
+	private int age;
+	public int Id
+	{
+		set => id=value;
+		get => id;
+	}
+	public DateTime DateOfBirth
+	{
+		set
+		{
+			dateOfBirth = value;
+			TimeSpan diff = DateTime.Now.ToString() - value;
+			age = diff.Days/365;
+		}
+		get => dateOgBirth;
+	}
+}
+
+auto-implemented/automatic property: should be used when property setter and getter does not have more than one line of code. It generates the private field behind the scene and set and get accessors will use that data member to set the value or return the value.
+
+class Person
+{
+	//property setter
+	public string Name { set; get; } = string.Empty;
+
+	//no automatic property for dateOfBirth
+	private DateTime dateOfBirth;
+	public DateTime DateOfBirth
+	{
+		set
+		{
+			dateOfBirth = value;
+			TimeSpan diff = DateTime.Now.ToString() - value;
+			age = diff.Days/365;
+		}
+		get => dateOfBirth;
+	}
+
+	public int Id
+	{
+		set;
+		get;
+	}
+
+	/*private int _IdField;
+	public int Id
+	{
+		set => _IdField = value;
+		get => _IdField;
+	}
+	*/
+
+	public int Age {get;}
+	
+	/*
+	private int _AgeField;
+	public int Age {get => _AgeField;} 
+	*/
+}
+
+
+
+

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{461F77FC-0576-4E8D-8400-CFA843634190}|Epsilon.DotNet.PmsApp.Entities\\Epsilon.DotNet.PmsApp.Entities.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-10\\epsilon.dotnet.pmsapp\\epsilon.dotnet.pmsapp.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461F77FC-0576-4E8D-8400-CFA843634190}|Epsilon.DotNet.PmsApp.Entities\\Epsilon.DotNet.PmsApp.Entities.csproj|solutionrelative:epsilon.dotnet.pmsapp.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Epsilon.DotNet.PmsApp.Entities\\Product.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.Entities\\Product.cs",
+              "RelativeToolTip": "Epsilon.DotNet.PmsApp.Entities\\Product.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T04:56:26.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
