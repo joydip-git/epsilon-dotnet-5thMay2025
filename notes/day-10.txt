@@ -2,18 +2,18 @@ database type: SQL Server
 database name: epsilondatabase
 table: products
 
-solution: PMSApp
+solution: Epsilon.DotNet.PmsApp
 
 data transfer object: a type/entity which is used in layered architecture to transfer data from one layer to another layer
 
-library: PMSApp.Entities
+library: Epsilon.DotNet.PmsApp.Entities
 class: Product
 
 
 data access layer:
 
-library: PMSApp.Repository
-[add reference to PMSApp.Entities library]
+library: Epsilon.DotNet.PmsApp.Repository
+[add reference to Epsilon.DotNet.PmsApp.Entities library]
 
 class: ProductDao
 methods:
@@ -25,9 +25,9 @@ methods:
 
 
 presentation layer:
-console app: PMSApp.UserInterface
-[add reference to the library PMSApp.Repository]
-[add reference to the library PMSApp.Entities]
+console app: Epsilon.DotNet.PmsApp.UserInterface
+[add reference to the library Epsilon.DotNet.PmsApp.Repository]
+[add reference to the library Epsilon.DotNet.PmsApp.Entities]
 
 class: top-level statement (Program.cs)
 
