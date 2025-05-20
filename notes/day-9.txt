@@ -49,9 +49,9 @@ HashSet<T>
 
 Object class methods:
 ----------------------------------
-virtual int GetHashCode()=> this.GetHashCode()
+virtual int GetHashCode()	=> this.GetHashCode()
 virtual bool Equals(object obj) => return this == obj
-virtual string ToString()
+virtual string ToString() 	=> return this.GetType().FullName;
 Type GetType()
 
 int x = 12;

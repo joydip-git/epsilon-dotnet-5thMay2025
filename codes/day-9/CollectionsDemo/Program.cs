@@ -47,7 +47,10 @@ bool sunilAdded = people.Add(sunilPerson);//calculates an unique hash code by ca
 
 foreach (Person item in people)
 {
-    Console.WriteLine(item.Id + "\t" + item.Name);
+    //Console.WriteLine(item.Id + "\t" + item.Name);
+    //Console.WriteLine(item.ToString());
+    //implicitly ToString() method (either the inherited base class method or the overriden method in the child class) will be called
+    Console.WriteLine(item);
 }
 Console.WriteLine("\ndictionary\n");
 Dictionary<int, string> dictionary = new Dictionary<int, string>();

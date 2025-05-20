@@ -7,7 +7,7 @@
 
         public Person()
         {
-           
+
         }
 
         public Person(int id, string name)
@@ -21,7 +21,7 @@
 
         public override bool Equals(object? obj)
         {
-            if(obj == null) return false;
+            if (obj == null) return false;
             if (obj is Person)
             {
                 Person other = (Person)obj;
@@ -39,6 +39,12 @@
         {
             const int salt = 31;
             return this.id * salt;
+        }
+
+        public override string? ToString()
+        {
+            return $"Name={this.name}, Id={this.id}";
+            //return this.GetType().FullName;
         }
     }
 }
