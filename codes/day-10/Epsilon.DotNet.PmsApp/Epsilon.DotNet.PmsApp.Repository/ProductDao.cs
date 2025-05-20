@@ -1,5 +1,6 @@
 ﻿using Epsilon.DotNet.PmsApp.Entities;
 using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace Epsilon.DotNet.PmsApp.Repository
 {
@@ -9,7 +10,7 @@ namespace Epsilon.DotNet.PmsApp.Repository
 
         public ProductDao()
         {
-            connectionString = @"server=.\sqlexpress; database=epsilondatabase; integrated security=true,trustservercertificate=true; encrypt=false";
+            connectionString = @"server=.\sqlexpress; database=epsilondatabase; integrated security=true; trustservercertificate=true; encrypt=false";
         }
 
         public List<Product> GetAll()
@@ -56,16 +57,50 @@ namespace Epsilon.DotNet.PmsApp.Repository
             {
                 throw;
             }
+            finally
+            {
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
+            }
         }
         public Product Get(int id)
         {
+            SqlConnection connection = null;
+            SqlCommand command = null;
+            SqlDataReader reader = null;
+            Product product = null;
             try
             {
-                return new Product();
+                connection = new SqlConnection(connectionString);
+                command = connection.CreateCommand();
+                command.CommandText = "select * from products where productid=@id";
+                command.Parameters.AddWithValue("@id", id);
+
+                connection.Open();
+                reader = command.ExecuteReader();
+                if (reader != null && reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        product = new Product
+                        {
+                            ProductId = (int)reader["productid"],
+                            ProductName = (string)reader["productname"],
+                            ProductDescription = (string)reader["productdesc"],
+                            Price = (decimal)reader["productprice"]
+                        };
+                    }
+                }
+                return product;
             }
             catch (Exception)
             {
                 throw;
+            }
+            finally
+            {
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
             }
         }
         public bool Insert(Product p)

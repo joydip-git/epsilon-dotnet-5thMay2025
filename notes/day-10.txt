@@ -5,13 +5,12 @@ table: products
 solution: Epsilon.DotNet.PmsApp
 ---------------------------------------
 
-data transfer object: a type/entity which is used in layered architecture to transfer data from one layer to another layer
+1. data transfer object: a type/entity which is used in layered architecture to transfer data from one layer to another layer
 
 library: Epsilon.DotNet.PmsApp.Entities
 class: Product
 
-
-data access layer:
+2. data access layer:
 
 library: Epsilon.DotNet.PmsApp.Repository
 [add reference to Epsilon.DotNet.PmsApp.Entities library]
@@ -33,8 +32,17 @@ methods:
 	removes an existing record in the database table for a given product id
 	bool Delete(int id)
 
+3. unit test for repository:
 
-presentation layer:
+project: unit test case project (MS Test)
+name: Epsilon.DotNet.PmsApp.RepositoryTests
+[add reference to the library Epsilon.DotNet.PmsApp.Repository]
+class: ProductDaoTests
+methods:
+	GetAllPositiveTest()
+	GetPositiveTest()
+
+4. presentation layer:
 console app: Epsilon.DotNet.PmsApp.UserInterface
 [add reference to the library Epsilon.DotNet.PmsApp.Repository]
 [add reference to the library Epsilon.DotNet.PmsApp.Entities]
@@ -110,6 +118,9 @@ class Person
 	*/
 }
 
-
+unit test cases:
+MS Test
+NUnit
+XUnit
 
 
