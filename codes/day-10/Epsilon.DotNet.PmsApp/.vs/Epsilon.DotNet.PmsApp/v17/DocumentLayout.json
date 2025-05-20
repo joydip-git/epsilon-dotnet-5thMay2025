@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{461F77FC-0576-4E8D-8400-CFA843634190}|Epsilon.DotNet.PmsApp.Entities\\Epsilon.DotNet.PmsApp.Entities.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-10\\epsilon.dotnet.pmsapp\\epsilon.dotnet.pmsapp.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{461F77FC-0576-4E8D-8400-CFA843634190}|Epsilon.DotNet.PmsApp.Entities\\Epsilon.DotNet.PmsApp.Entities.csproj|solutionrelative:epsilon.dotnet.pmsapp.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FA1C42C-1809-4938-97C0-9F261936611E}|Epsilon.DotNet.PmsApp.Repository\\Epsilon.DotNet.PmsApp.Repository.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-10\\epsilon.dotnet.pmsapp\\epsilon.dotnet.pmsapp.repository\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA1C42C-1809-4938-97C0-9F261936611E}|Epsilon.DotNet.PmsApp.Repository\\Epsilon.DotNet.PmsApp.Repository.csproj|solutionrelative:epsilon.dotnet.pmsapp.repository\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Epsilon.DotNet.PmsApp.Entities\\Product.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.Entities\\Product.cs",
-              "RelativeToolTip": "Epsilon.DotNet.PmsApp.Entities\\Product.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Title": "ProductDao.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.Repository\\ProductDao.cs",
+              "RelativeDocumentMoniker": "Epsilon.DotNet.PmsApp.Repository\\ProductDao.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.Repository\\ProductDao.cs",
+              "RelativeToolTip": "Epsilon.DotNet.PmsApp.Repository\\ProductDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T04:56:26.42Z",
+              "WhenOpened": "2025-05-20T05:42:11.109Z",
               "EditorCaption": ""
             }
           ]

@@ -18,10 +18,19 @@ library: Epsilon.DotNet.PmsApp.Repository
 
 class: ProductDao
 methods:
+	fetches all product records from database table "products" and returns the data to the caller as collection of product objects
 	List<Product> GetAll()
+
+	fetches a single product record from database table "products" and returns the data to the caller as a product object
 	Product Get(int id)
+
+	inserts a new record into the database table for a given product object
 	bool Insert(Product p)
+
+	updates an existing record in the database table for a given product id and updated product data
 	bool Update(int id, Product p)
+
+	removes an existing record in the database table for a given product id
 	bool Delete(int id)
 
 
