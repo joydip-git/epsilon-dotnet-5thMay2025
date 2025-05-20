@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epsilon.DotNet.PmsApp.Repos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epsilon.DotNet.PmsApp.RepositoryTests", "Epsilon.DotNet.PmsApp.RepositoryTests\Epsilon.DotNet.PmsApp.RepositoryTests.csproj", "{6049F6A7-C4F0-4EDF-9136-23BE4BD9961F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epsilon.DotNet.PmsApp.BusinessLogic", "Epsilon.DotNet.PmsApp.BusinessLogic\Epsilon.DotNet.PmsApp.BusinessLogic.csproj", "{2A49F042-32FE-4457-B7F6-32D522FABE29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6049F6A7-C4F0-4EDF-9136-23BE4BD9961F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6049F6A7-C4F0-4EDF-9136-23BE4BD9961F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6049F6A7-C4F0-4EDF-9136-23BE4BD9961F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A49F042-32FE-4457-B7F6-32D522FABE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A49F042-32FE-4457-B7F6-32D522FABE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A49F042-32FE-4457-B7F6-32D522FABE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A49F042-32FE-4457-B7F6-32D522FABE29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

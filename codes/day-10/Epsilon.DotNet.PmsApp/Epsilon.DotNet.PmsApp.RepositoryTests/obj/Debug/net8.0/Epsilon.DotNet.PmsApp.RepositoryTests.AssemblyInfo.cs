@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Epsilon.DotNet.PmsApp.RepositoryTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0a0185076a9739c967c21fafc83f128eb1c6e82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78870099f792e317fecc180f70ab67e16319eb98")]
 [assembly: System.Reflection.AssemblyProductAttribute("Epsilon.DotNet.PmsApp.RepositoryTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Epsilon.DotNet.PmsApp.RepositoryTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

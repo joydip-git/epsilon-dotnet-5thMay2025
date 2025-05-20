@@ -42,7 +42,41 @@ methods:
 	GetAllPositiveTest()
 	GetPositiveTest()
 
-4. presentation layer:
+4. business layer:
+
+library: Epsilon.DotNet.PmsApp.BusinessLogic
+[add reference to Epsilon.DotNet.PmsApp.Repository library]
+[add reference to Epsilon.DotNet.PmsApp.Entities library]
+
+class: ProductBusinessComponent
+methods:
+	fetches all product records from data access layer and returns the data to the caller as collection of product objects but sorted
+	List<Product> FetchAll(int choice)
+
+	fetches a single product record from data access layer and returns the data to the caller as it is, but before calling the dal method, it will perform validation on the data
+	Product Fetch(int id)
+
+	pass a new record to the dal for a given product object, but it will call dal method after validating the product object (and if necessary, auto-generate the product id)
+	bool Add(Product p)
+
+	pass the updatable record to dal method, for a given product id and updated product data, but it will call dal method after validating the product object and the id
+	bool Modify(int id, Product p)
+
+	pass the id of the product to delete to the dal method after validating the id
+	bool Remove(int id)
+
+5. unit test for business layer:
+
+project: unit test case project (MS Test)
+name: Epsilon.DotNet.PmsApp.BusinessLogicTests
+[add reference to the library Epsilon.DotNet.PmsApp.BusinessLogic]
+class: ProductBusinessComponentTests
+methods:
+	FetchAllPositiveTest()
+	FetchPositiveTest()
+
+
+6. presentation layer:
 console app: Epsilon.DotNet.PmsApp.UserInterface
 [add reference to the library Epsilon.DotNet.PmsApp.Repository]
 [add reference to the library Epsilon.DotNet.PmsApp.Entities]
