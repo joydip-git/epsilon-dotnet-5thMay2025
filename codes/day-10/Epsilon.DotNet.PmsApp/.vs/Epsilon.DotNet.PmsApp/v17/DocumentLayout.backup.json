@@ -9,9 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8FA1C42C-1809-4938-97C0-9F261936611E}|Epsilon.DotNet.PmsApp.Repository\\Epsilon.DotNet.PmsApp.Repository.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-10\\epsilon.dotnet.pmsapp\\epsilon.dotnet.pmsapp.repository\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA1C42C-1809-4938-97C0-9F261936611E}|Epsilon.DotNet.PmsApp.Repository\\Epsilon.DotNet.PmsApp.Repository.csproj|solutionrelative:epsilon.dotnet.pmsapp.repository\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/JOYDIP_PC_SQLEXPRESS/epsilondatabase/True/SqlTable/dbo.products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -31,19 +28,9 @@
               "RelativeDocumentMoniker": "Epsilon.DotNet.PmsApp.Repository\\ProductDao.cs",
               "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.Repository\\ProductDao.cs",
               "RelativeToolTip": "Epsilon.DotNet.PmsApp.Repository\\ProductDao.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAuwGAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAuwKIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T06:23:39.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.products [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/JOYDIP_PC_SQLEXPRESS/epsilondatabase/True/SqlTable/dbo.products.sql",
-              "ToolTip": "dbo.products [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-20T06:15:27.679Z",
               "EditorCaption": ""
             },
             {
@@ -52,9 +39,9 @@
               "Title": "ProductDaoTests.cs",
               "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.RepositoryTests\\ProductDaoTests.cs",
               "RelativeDocumentMoniker": "Epsilon.DotNet.PmsApp.RepositoryTests\\ProductDaoTests.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.RepositoryTests\\ProductDaoTests.cs",
-              "RelativeToolTip": "Epsilon.DotNet.PmsApp.RepositoryTests\\ProductDaoTests.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEMAAAAjAAAAAAAAAA==",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-10\\Epsilon.DotNet.PmsApp\\Epsilon.DotNet.PmsApp.RepositoryTests\\ProductDaoTests.cs*",
+              "RelativeToolTip": "Epsilon.DotNet.PmsApp.RepositoryTests\\ProductDaoTests.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T06:12:08.342Z",
               "EditorCaption": ""

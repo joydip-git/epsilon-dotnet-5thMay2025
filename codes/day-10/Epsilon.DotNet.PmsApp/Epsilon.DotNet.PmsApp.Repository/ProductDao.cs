@@ -105,35 +105,118 @@ namespace Epsilon.DotNet.PmsApp.Repository
         }
         public bool Insert(Product p)
         {
+            SqlConnection connection = null;
+            SqlCommand command = null;
             try
             {
-                return false;
+                connection = new SqlConnection(connectionString);
+                command = connection.CreateCommand();
+                command.CommandText = "insert into products(productname,productdesc,productprice) values(@name,@desc,@price)";
+                command.Parameters.AddWithValue("@name", p.ProductName);
+                command.Parameters.AddWithValue("@desc", p.ProductDescription);
+                command.Parameters.AddWithValue("@price", p.Price);
+
+                connection.Open();
+                int result = command.ExecuteNonQuery();
+                return result > 0 ? true : false;
+            }
+            catch (SqlException)
+            {
+                throw;
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
             catch (Exception)
             {
                 throw;
+            }
+            finally
+            {
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
             }
         }
         public bool Update(int id, Product p)
         {
+            SqlConnection connection = null;
+            SqlCommand command = null;
             try
             {
-                return false;
+                Product found = Get(id);
+                if (found != null)
+                {
+                    connection = new SqlConnection(connectionString);
+                    command = connection.CreateCommand();
+                    command.CommandText = "update products set productname=@name,productdesc=@desc,productprice=@price where productid=@id";
+                    command.Parameters.AddWithValue("@name", p.ProductName);
+                    command.Parameters.AddWithValue("@desc", p.ProductDescription);
+                    command.Parameters.AddWithValue("@price", p.Price);
+                    command.Parameters.AddWithValue("@id", id);
+
+                    connection.Open();
+                    int result = command.ExecuteNonQuery();
+                    return result > 0 ? true : false;
+                }
+                else
+                    throw new Exception($"the product with id:{id} does not exist");
+            }
+            catch (SqlException)
+            {
+                throw;
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
             catch (Exception)
             {
                 throw;
+            }
+            finally
+            {
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
             }
         }
         public bool Delete(int id)
         {
+            SqlConnection connection = null;
+            SqlCommand command = null;
             try
             {
-                return false;
+                Product p = Get(id);
+                if (p != null)
+                {
+                    connection = new SqlConnection(connectionString);
+                    command = connection.CreateCommand();
+                    command.CommandText = "delete from products where productid=@id";
+                    command.Parameters.AddWithValue("@id", id);
+
+                    connection.Open();
+                    int result = command.ExecuteNonQuery();
+                    return result > 0 ? true : false;
+                }
+                else
+                    throw new Exception($"the product with id:{id} does not exist");
+            }
+            catch (SqlException)
+            {
+                throw;
+            }
+            catch (ArgumentException)
+            {
+                throw;
             }
             catch (Exception)
             {
                 throw;
+            }
+            finally
+            {
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
             }
         }
     }

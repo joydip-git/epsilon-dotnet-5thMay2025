@@ -31,7 +31,7 @@ namespace Epsilon.DotNet.PmsApp.RepositoryTests
 
         //this method will be invoked adter every test case method is completed
         [TestCleanup]
-        public void Cleanup() 
+        public void Cleanup()
         {
             productDao = null;
         }
@@ -42,18 +42,18 @@ namespace Epsilon.DotNet.PmsApp.RepositoryTests
         {
             //arrange            
             List<Product> expectedList = [
-               new Product 
-               { 
-                   ProductId=100, 
-                   ProductName="dell xps", 
-                   ProductDescription="new laptop from dell", 
+               new Product
+               {
+                   ProductId=100,
+                   ProductName="dell xps",
+                   ProductDescription="new laptop from dell",
                    Price=120000.00M
                },
                new Product
-               { 
-                   ProductDescription="new laptop from hp", 
-                   ProductName="hp probook", 
-                   ProductId=101, 
+               {
+                   ProductDescription="new laptop from hp",
+                   ProductName="hp probook",
+                   ProductId=101,
                    Price=110000.00M
                }];
 
@@ -63,7 +63,7 @@ namespace Epsilon.DotNet.PmsApp.RepositoryTests
             //assert            
             CollectionAssert.AreEqual(expectedList, actualList);
         }
-        
+
         [TestMethod]
         public void GetPositiveTest()
         {
@@ -82,6 +82,111 @@ namespace Epsilon.DotNet.PmsApp.RepositoryTests
             //assert
             Assert.AreEqual(expectedProduct, actualProduct);
             //expectedProduct.Equals(actualproduct);
+        }
+
+        [TestMethod]
+        public void InsertPositiveTest()
+        {
+            //arrange            
+            Product product = new Product
+            {
+                ProductDescription = "new laptop from lenovo",
+                ProductName = "lenovo thinkpad",
+                Price = 130000.00M
+            };
+
+            //act
+            bool actualStatus = productDao.Insert(product);
+
+            //assert
+            Assert.AreEqual(true, actualStatus);
+        }
+
+        [TestMethod]
+        public void UpdatePositiveTest()
+        {
+            //arrange            
+            Product product = new Product
+            {
+                ProductDescription = "new laptop from lenovo",
+                ProductName = "lenovo thinkpad 15inch",
+                Price = 140000.00M
+            };
+
+            //act
+            bool actualStatus = productDao.Update(102, product);
+
+            //assert
+            Assert.AreEqual(true, actualStatus);
+        }
+
+        [TestMethod]
+        //[ExpectedException(typeof(SqlException))]
+        public void UpdateNegativeTestWithIncorrectProductId()
+        {
+            //arrange            
+            Product product = new Product
+            {
+                ProductDescription = "new laptop from lenovo",
+                ProductName = "lenovo thinkpad 15inch",
+                Price = 140000.00M
+            };
+
+            //act
+            bool actualStatus = productDao.Update(102, product);
+
+            //assert
+            Assert.AreEqual(false, actualStatus);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void UpdateExceptionTestWithIncorrectProductId()
+        {
+            //arrange            
+            Product product = new Product
+            {
+                ProductDescription = "new laptop from lenovo",
+                ProductName = "lenovo thinkpad 15inch",
+                Price = 140000.00M
+            };
+
+            //act            
+            productDao.Update(102, product);
+        }
+
+        [TestMethod]
+        public void UpdateExceptionMessageTestWithIncorrectProductId()
+        {
+            //arrange            
+            Product product = new Product
+            {
+                ProductDescription = "new laptop from lenovo",
+                ProductName = "lenovo thinkpad 15inch",
+                Price = 140000.00M
+            };
+
+            //act
+            try
+            {
+                productDao.Update(102, product);
+            }
+            catch (Exception ex)
+            {
+                Assert.AreEqual($"the product with id:102 does not exist", ex.Message);
+            }
+        }
+
+        [TestMethod]
+        public void DeletePositiveTest()
+        {
+            //arrange            
+
+            //act
+            bool actualStatus = productDao.Delete(102);
+
+            //assert
+            Assert.AreEqual(true, actualStatus);
         }
     }
 }
