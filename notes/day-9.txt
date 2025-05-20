@@ -25,22 +25,6 @@ multiple values: SqlDataReader ExecuteReader()
 executing non-select query:
 int ExecuteNonQuery()
 
-solution: PMSApp
-library: PMSApp.Repository
-class: ProductDao
-methods:
-	List<Product>/HashSet<Product> GetProducts()
-
-console app: PMSApp.UserInterface
-add reference to the library PMSApp.Repository
-
-class: top-level statement (Program.cs)
-
-
-ProductDao dao = new ();
-dao.GetProducts()
-
-
 Collections:
 -------------------
 List<T>

@@ -1,0 +1,36 @@
+database type: SQL Server
+database name: epsilondatabase
+table: products
+
+solution: PMSApp
+
+data transfer object: a type/entity which is used in layered architecture to transfer data from one layer to another layer
+
+library: PMSApp.Entities
+class: Product
+
+
+data access layer:
+
+library: PMSApp.Repository
+[add reference to PMSApp.Entities library]
+
+class: ProductDao
+methods:
+	List<Product> GetAll()
+	Product Get(int id)
+	bool Insert(Product p)
+	bool Update(int id, Product p)
+	bool Delete(int id)
+
+
+presentation layer:
+console app: PMSApp.UserInterface
+[add reference to the library PMSApp.Repository]
+[add reference to the library PMSApp.Entities]
+
+class: top-level statement (Program.cs)
+
+
+ProductDao dao = new ();
+dao.GetAll();
