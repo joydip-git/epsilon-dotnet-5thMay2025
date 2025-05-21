@@ -132,6 +132,10 @@ pdl.Invoke("hello from some show");
 int addRes = cdAdd.Invoke(12,13);
 int subRes = cdSub.Invoke(12,3);
 
+Anonymous Delegate:
+--------------------------
+a technique to create a delegate and "refer" to a dynamic logic written then and there (not present beforehand)
+
 Problem:
 -------------------
 1. Filter method filters ONLY even numbers
