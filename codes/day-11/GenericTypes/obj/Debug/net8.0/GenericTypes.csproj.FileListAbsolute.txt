@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\bin\Debug\net8.0\GenericTypes.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\bin\Debug\net8.0\GenericTypes.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\bin\Debug\net8.0\GenericTypes.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\bin\Debug\net8.0\GenericTypes.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\bin\Debug\net8.0\GenericTypes.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\refint\GenericTypes.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\GenericTypes.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericTypes\obj\Debug\net8.0\ref\GenericTypes.dll

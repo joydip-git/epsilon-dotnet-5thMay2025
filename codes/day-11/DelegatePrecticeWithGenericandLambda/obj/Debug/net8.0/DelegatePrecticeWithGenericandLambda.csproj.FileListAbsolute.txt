@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\bin\Debug\net8.0\DelegatePrecticeWithGenericandLambda.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\bin\Debug\net8.0\DelegatePrecticeWithGenericandLambda.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\bin\Debug\net8.0\DelegatePrecticeWithGenericandLambda.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\bin\Debug\net8.0\DelegatePrecticeWithGenericandLambda.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\bin\Debug\net8.0\DelegatePrecticeWithGenericandLambda.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\refint\DelegatePrecticeWithGenericandLambda.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\DelegatePrecticeWithGenericandLambda.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegatePrecticeWithGenericandLambda\obj\Debug\net8.0\ref\DelegatePrecticeWithGenericandLambda.dll

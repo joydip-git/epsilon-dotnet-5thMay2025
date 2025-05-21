@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CallbackUsingDelegate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48f28d7b7fcac42c56efd27f8e35a36aeaaa0005")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89398f75ae68152bdbc1b94f697a9d5c87fd5973")]
 [assembly: System.Reflection.AssemblyProductAttribute("CallbackUsingDelegate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CallbackUsingDelegate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

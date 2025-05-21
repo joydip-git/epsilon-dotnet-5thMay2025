@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\bin\Debug\net8.0\GenericDelegates.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\bin\Debug\net8.0\GenericDelegates.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\bin\Debug\net8.0\GenericDelegates.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\bin\Debug\net8.0\GenericDelegates.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\bin\Debug\net8.0\GenericDelegates.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\refint\GenericDelegates.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\GenericDelegates.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\GenericDelegates\obj\Debug\net8.0\ref\GenericDelegates.dll

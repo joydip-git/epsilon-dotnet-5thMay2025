@@ -3,13 +3,10 @@
   "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\CallbackUsingDelegate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6142A94-13F3-45E4-B940-E72D2DA289B3}|..\\DelegateImplemantation\\DelegateImplemantation.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-11\\delegateimplemantation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDE8F70D-3F0A-460E-8775-0E9875F5B507}|..\\DelegatePrecticeWithGenericandLambda\\DelegatePrecticeWithGenericandLambda.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-11\\delegateprecticewithgenericandlambda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6142A94-13F3-45E4-B940-E72D2DA289B3}|..\\DelegateImplemantation\\DelegateImplemantation.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-11\\delegateimplemantation\\logicinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6142A94-13F3-45E4-B940-E72D2DA289B3}|..\\DelegateImplemantation\\DelegateImplemantation.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-11\\delegateimplemantation\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22BF59BF-1892-4B7D-8ACC-34E2B6D4BC71}|..\\GenericDelegates\\GenericDelegates.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\day-11\\genericdelegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,39 +22,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegateImplemantation\\Program.cs",
-              "RelativeDocumentMoniker": "..\\DelegateImplemantation\\Program.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegateImplemantation\\Program.cs",
-              "RelativeToolTip": "..\\DelegateImplemantation\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAuwDMAAABHAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegatePrecticeWithGenericandLambda\\Program.cs",
+              "RelativeDocumentMoniker": "..\\DelegatePrecticeWithGenericandLambda\\Program.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegatePrecticeWithGenericandLambda\\Program.cs",
+              "RelativeToolTip": "..\\DelegatePrecticeWithGenericandLambda\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:43:38.171Z",
+              "WhenOpened": "2025-05-21T07:48:12.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LogicInvoker.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegateImplemantation\\LogicInvoker.cs",
-              "RelativeDocumentMoniker": "..\\DelegateImplemantation\\LogicInvoker.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegateImplemantation\\LogicInvoker.cs",
-              "RelativeToolTip": "..\\DelegateImplemantation\\LogicInvoker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\GenericDelegates\\Program.cs",
+              "RelativeDocumentMoniker": "..\\GenericDelegates\\Program.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\GenericDelegates\\Program.cs",
+              "RelativeToolTip": "..\\GenericDelegates\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:42:40.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Logic.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegateImplemantation\\Logic.cs",
-              "RelativeDocumentMoniker": "..\\DelegateImplemantation\\Logic.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\day-11\\DelegateImplemantation\\Logic.cs",
-              "RelativeToolTip": "..\\DelegateImplemantation\\Logic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:38:59.36Z",
+              "WhenOpened": "2025-05-21T07:09:05.404Z",
               "EditorCaption": ""
             }
           ]

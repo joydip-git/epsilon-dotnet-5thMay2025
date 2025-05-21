@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\bin\Debug\net8.0\AnonymousDelegates.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\bin\Debug\net8.0\AnonymousDelegates.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\bin\Debug\net8.0\AnonymousDelegates.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\bin\Debug\net8.0\AnonymousDelegates.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\bin\Debug\net8.0\AnonymousDelegates.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\refint\AnonymousDelegates.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\AnonymousDelegates.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\AnonymousDelegates\obj\Debug\net8.0\ref\AnonymousDelegates.dll
