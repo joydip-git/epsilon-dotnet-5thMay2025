@@ -153,8 +153,20 @@ class Person
 }
 
 unit test cases:
+------------------------------
 MS Test
 NUnit
 XUnit
+
+MS Test
+-----------------
+attributes:
+	TestClass => to be ued at the top of the class containig test cases
+	TestMetod => to be used at the top of the unit test case method 
+	ExpectedException => to be used at the top of the unit test case method in case you are testing whether the method being tested throws exception as per expectation
+	TestInitialize => to be used at the top of the method in the test class to initialize some values to be used by every unit test case method. this method runs before evey unit test case method.
+	TestCleanUp => to be used at the top of the method in the test class to clean up some initialized values/resources afer they have been used by every unit test case method. this method runs after evey unit test case method.
+	ClassInitialize => to be used at the top of a method in the test class to initialize some values to be used by every unit test case method. this method runs only one time and that is before all the unit test case methods
+	ClassCleanUp => to be used at the top of the method in the test class to clean up some initialized values/resources afer they have been used by unit test case methods. this method runs only one time after all unit test case methods.
 
 

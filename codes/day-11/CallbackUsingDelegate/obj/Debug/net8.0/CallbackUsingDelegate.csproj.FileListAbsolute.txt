@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\bin\Debug\net8.0\CallbackUsingDelegate.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\bin\Debug\net8.0\CallbackUsingDelegate.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\bin\Debug\net8.0\CallbackUsingDelegate.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\bin\Debug\net8.0\CallbackUsingDelegate.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\bin\Debug\net8.0\CallbackUsingDelegate.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\refint\CallbackUsingDelegate.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\CallbackUsingDelegate.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\CallbackUsingDelegate\obj\Debug\net8.0\ref\CallbackUsingDelegate.dll

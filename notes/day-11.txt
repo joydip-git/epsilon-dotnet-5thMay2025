@@ -1,0 +1,137 @@
+Delegate
+Some more new features of C#
+LINQ
+Thredaing
+
+Callback mechanism:
+-------------------------
+passing a method as an argument to another method, and invoke the former from the later using the "reference to the method"
+                          -----------------------
+
+in C++ => pointer to the function
+
+in method you can pass simple value types or even reference types as argument
+
+Add(int x, int y) => Add(12,13)
+Insert(Product p) => Insert(new Product())
+Print(int[] arr)  => Print(new int[]{1,2,3,4})
+
+supports:
+---------------------
+class Facilities
+{
+	GetProjectorRemote()
+	GetMarkers()
+	GetWater()
+}
+
+assistant => what to do??? (call a method)
+
+class Assistant
+{
+	AssistTrainer(? methodToCall)
+	{
+		//calling back the method that you passed as an argument
+		methodToCall()
+	}
+}
+
+Assistant ram = new ();
+Facilities f = new();
+//f.GetMarkers()
+ram.AssistTrainer(f.GetWater);
+
+
+usage:
+------------
+event handling
+threading
+LINQ
+Asynchronous programming
+etc.
+
+Delegate:
+-------------------------
+delegate can store "reference" to a method => method name itself acts as reference to the method
+using that reference stored in the delegate we can invoke that method
+Note: reference of only those methods whose signature matches to that of the delegate can be stored in the delegate and can be invoked by the delegate
+
+the method can be static or non-static
+delegate is a new type, like class or interface
+
+A. delegate is declared in C# in the following manner
+
+delegate <return-type-of-the-method> <del-name>(<args of the method>);
+
+example:
+a. method:
+class Printer
+{
+	//instance
+	public void Print(string str){}
+}
+class Some
+{
+	public void Show(string str){}
+}
+
+class Calculation
+{
+	//instance
+	public int Add(int x, int y){}
+
+	//static
+	public static int Subtract(int x, int y){}
+}
+
+b. delegate declaration:
+delegate void PrintDel(string data); => void <Method-Name>(string arg-name)
+
+delegate int CalDel(int a, int b); => int <Method-Name>(int arg1, int arg2)
+
+Rules:
+the delegate delaration should match
+	- the return type of the method to invoke
+	- arguments of the method to invoke
+		a. number of arguments
+		b. data type of arguments
+		c. position of the arguments
+
+B. store the reference of the method in a delegate
+	create an instance of the delegate and pass the method name (NOT as string) to the constructor of the delegate
+
+i. in case the method is instance: create an instance of the class first and then pass the reference to the method using the reference variable
+
+<del-name> <variable> = new <del-name>(instance-variable.method-name);
+
+Printer p = new();
+PrintDel pd = new PrintDel(p.Print);
+
+Some some = new();
+PrintDel pdl = new(some.Show);
+
+Calculation calc  = new();
+CalDel cdAdd = new CalDel(calc.Add);
+
+ii. in case the method is static: Just pass the "reference" (name) to the method using the clas name
+
+<del-name> <variable> = new <del-name>(class-name.method-name);
+
+CalDel cdSub = new CalDel(Calculation.Subtract);
+
+C. Invoke the method using delegate: by calling the delegate like a method
+--------------------------------------------------------------------------
+pd("hello from printer print");
+pdl("hello from some show");
+int addRes = cdAdd(12,13);
+int subRes = cdSub(12,3);
+
+//or
+
+pd.Invoke("hello from printer print");
+pdl.Invoke("hello from some show");
+int addRes = cdAdd.Invoke(12,13);
+int subRes = cdSub.Invoke(12,3);
+
+
+
