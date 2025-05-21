@@ -12,9 +12,17 @@ namespace Epsilon.DotNet.PmsApp.BusinessLogic
             productDao = new ProductDao();
         }
 
-        public List<Product> FetchAll(int choice)
+        public List<Product> FetchAllAndSort(int choice)
         {
-            return [];
+            try
+            {
+                List<Product> products = productDao.GetAll();
+                return products;
+            }
+            catch (Exception)
+            {
+
+            }
         }
         public Product Fetch(int id)
         {

@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\bin\Debug\net8.0\DelegateImplemantation.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\bin\Debug\net8.0\DelegateImplemantation.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\bin\Debug\net8.0\DelegateImplemantation.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\bin\Debug\net8.0\DelegateImplemantation.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\bin\Debug\net8.0\DelegateImplemantation.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\refint\DelegateImplemantation.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\DelegateImplemantation.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\day-11\DelegateImplemantation\obj\Debug\net8.0\ref\DelegateImplemantation.dll

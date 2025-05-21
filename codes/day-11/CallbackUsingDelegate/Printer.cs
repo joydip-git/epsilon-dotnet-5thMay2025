@@ -6,5 +6,9 @@
         {
             Console.WriteLine(str);
         }
+        public static void Show(string str)
+        {
+            Console.WriteLine(str);
+        }
     }
 }
