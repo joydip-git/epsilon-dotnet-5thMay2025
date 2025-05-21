@@ -136,8 +136,11 @@ Problem:
 -------------------
 1. Filter method filters ONLY even numbers
 	DO NOT write the logic of filtration in the method
+	solution:
 	Write the logic somewhere else
 	Filter(input-list, logic-to-filter-via-delegate)
 
-2. Filter method works only on List<int> type data source
-
+2. Filter method works only on List<int> type data source:
+	DO NOT create the filter method as strongly-typed method
+	solution:
+	use generic type filter method
