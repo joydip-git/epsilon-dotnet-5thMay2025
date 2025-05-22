@@ -1,0 +1,18 @@
+create an application to sort, filter etc. the products in a collection
+
+create a console application and then
+1. add a new class file Product.cs with a class Product in it
+	Product:
+		attributes: name, id, price, decsription, releasedate
+		constructors: default and parameterized
+		properties: for all the attributes
+
+	Note: 
+	a. you can the attributes and directly use automatic properties
+	b. you should override Object class methods: Equals(), GetHashCode() and ToString()
+
+2. in the Program.cs file
+	create a collection (List<Product>) to store some sample product objects (at least 3)
+	write LINQ to sort the products by user choice (1-> id, 2-> name, 3-> price, 4-> releasedate)
+	also filter the products by price between a certain range where the upper-bound = <your choice> and lower-bound=<your choice>
+	just select the name and price of the matching products and finally display them in order as selected by user
