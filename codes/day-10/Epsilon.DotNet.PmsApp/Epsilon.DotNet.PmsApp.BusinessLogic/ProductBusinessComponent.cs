@@ -12,16 +12,52 @@ namespace Epsilon.DotNet.PmsApp.BusinessLogic
             productDao = new ProductDao();
         }
 
-        public List<Product> FetchAllAndSort(int choice)
+        public List<Product> FilterByName(string name)
+        {
+            try
+            {
+                var products = productDao.GetAll();
+                //return products.Where(p=> p.ProductName.Contains(name)).ToList();
+                return [.. products.Where(p => p.ProductName.Contains(name))];
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public List<Product> FetchAllAndSort(int choice = 1)
         {
             try
             {
                 List<Product> products = productDao.GetAll();
+                List<Product> result = null;
+                switch (choice)
+                {
+                    case 1:
+                        result = products.OrderBy(p => p.ProductId).ToList();
+                        break;
+
+                    case 2:
+                        result =
+                            [..
+                                products.OrderBy(p => p.ProductName)
+                            ];
+                        break;
+
+                    case 3:
+                        result = [.. products.OrderBy(p => p.Price)];
+                        break;
+
+                    default:
+                        result = [.. products.OrderBy(p => p.ProductId)];
+                        break;
+                }
                 return products;
             }
             catch (Exception)
             {
-
+                throw;
             }
         }
         public Product Fetch(int id)
@@ -60,7 +96,7 @@ namespace Epsilon.DotNet.PmsApp.BusinessLogic
 
                 if (id <= 0)
                     throw new ArgumentException($"value of {nameof(id)} can't be negative or zero");
-
+                
                 return productDao.Update(id, product);
             }
             catch (Exception)

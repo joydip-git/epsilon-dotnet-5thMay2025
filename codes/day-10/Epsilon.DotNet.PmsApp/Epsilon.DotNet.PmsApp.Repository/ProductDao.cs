@@ -27,6 +27,7 @@ namespace Epsilon.DotNet.PmsApp.Repository
 
                 connection.Open();
                 reader = command.ExecuteReader();
+                
                 if (reader != null && reader.HasRows)
                 {
                     products = new List<Product>();

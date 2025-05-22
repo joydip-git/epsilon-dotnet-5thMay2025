@@ -47,3 +47,22 @@ a collection is "queried" through a series of operators (like clauses in SQL) an
 
 Note: we do not have different operators for every situation (method)
 such as for Max(), Min(), Average() kind of aggregate methods we do not have equivalent operators in query syntax.
+
+
+implicitly typed local variable:
+-------------------------------------------
+declaring a variable without any strict data type but using var keyword to do that.
+any implcitly typed local variable must be assigned some value so that the actual data type can be understood. this mechanism is known as type inference.
+
+var x = 10;
+var y; <- error (must assign value)
+
+class A
+{
+ var x; <- error
+ public var Method() <- error
+ public void Method(var a) <- error
+}
+Note: var is JUST a keyword, NOT a DATA TYPE, so do not use var as return type of data type for the aguments in method or data members of a class etc.
+
+
