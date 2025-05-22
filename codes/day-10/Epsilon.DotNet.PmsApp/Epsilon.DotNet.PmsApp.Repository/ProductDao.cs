@@ -10,6 +10,7 @@ namespace Epsilon.DotNet.PmsApp.Repository
 
         public ProductDao()
         {
+            //server=<ip-address>\<instance-name>
             connectionString = @"server=.\sqlexpress; database=epsilondatabase; integrated security=true; trustservercertificate=true; encrypt=false";
         }
 

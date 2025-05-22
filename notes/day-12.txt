@@ -65,4 +65,41 @@ class A
 }
 Note: var is JUST a keyword, NOT a DATA TYPE, so do not use var as return type of data type for the aguments in method or data members of a class etc.
 
+web application:
+--------------------
+backend server application which provides anyone with CRUD methods (APIs) to interact with some database table
+these APIs are callable via web (using HTTP protocol)
+i.e. an web application which exposes some APIs via URLs (HTTP protocol)
+=> RESTful application (REpreentational State Transfer)
+
+anyone can request the APIs exposed by a RESTful web application via HTTP protocol and its methods (GET, POST, PUT, DELETE, PATCH etc.)
+HTTP protocol is state-less protocol, i.e., it can not be used to maintain either the state of request or even state of any data in the protocol
+any RESTful web application will NOT just return the data, BUT the STATE of  the data to you.
+the RESTful application does not store the "state" of the client at the backend.
+
+
+example:
+http://localhost:4200/products/filter/{name}     [GET]
+this API request will generate a response with a series of product data, filtered by the name, in JSON/XML format
+
+http://localhost:4200/products/all/sort/{choice} [GET]
+this API request will generate a response with a series of product data, sorted by the choice, in JSON/XML format
+
+http://localhost:4200/products/{id} 		 [GET]
+this API request will generate a response with a product data, matching to the given id, in JSON/XML format
+
+
+http://localhost:4200/products/add 		 [POST]
+[additional data: product data to be added as JSON/XML through HTTP request body]
+this API request will help you to add a new product data [as sent by you in JSON/XML format through request body] in the backend data source and generate a response as decieded by you
+
+http://localhost:4200/products/edit/{id}	 [PUT]
+[additional data: product data to be upadted as JSON/XML through HTTP request body]
+this API request will help you to update an existing product data in the backend data source for a given product id and the updated product data [as sent by you in JSON/XML format through request body] and generate a response as decieded by you
+
+
+http://localhost:4200/products/remove/{id}	 [DELETE]
+this API request will help you to remove an existing product data from the backend data source for a given product id and generate a response as decieded by you
+
+
 
