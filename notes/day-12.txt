@@ -1,0 +1,49 @@
+Built-in delegates:
+--------------------------
+Action => delegate void Action();
+Action<T> => delegate void Action<in T>(T input);
+
+Predicate<T> => delegate bool Predicate<in T>(T input);
+
+Func<TResult> => delegate TResult Func<out TResult>();
+
+Func<T,TResult> => delegate TResult Func<in T, out TResult>(T input);
+
+Func<T1,T2,TResult> => delegate TResult Func<in T1,in T2, out TResult>(T1 input1,T2 input2);
+......
+Func<T1,T2,...,in T16,TResult> => delegate TResult Func<in T1,in T2,..in T16,out TResult>(T1 input1,T2 input2,...,T16 input16);
+
+
+Comparsion<T> => delegate int Comparsion<in T>(T x, T y);
+
+EventHandler => delegate void EventHandler(object obj, EventArgs e);
+
+etc.
+
+Functional Programming:
+---------------------------------
+
+LINQ => Language Integrated Query 
+	a query language/tehcnique integrated into the programming language and has its foundation in OOP language features, generic, collections, delegate and anonymous method, lambda expression and functional programming etc.
+
+write query against source of data in programming language (which is essentially a collection object)
+
+two syntactical styles:
+a. method query syntax
+b. query operator syntax
+
+method query syntax:
+--------------------------
+a collection is "queried" through a series of methods of the collection class itself
+for this purpose every collection class in .NET offers several methods for repeatative tasks, such as: 
+Where(), OrderBy(), OrderByDescending(), Select(), Group(), Join(), Max(), Min(), Average(), Take(), Find(), Any() etc.
+
+Majority of these methods needs some kind logic to be passed in order to accomplish the task. The logic must be passed through a built-in delegate as demanded by the method.
+
+
+Query Syntax
+-----------------------------
+a collection is "queried" through a series of operators (like clauses in SQL) and written like a SQL (in a reversed manner)
+
+Note: we do not have different operators for every situation (method)
+such as for Max(), Min(), Average() kind of aggregate methods we do not have equivalent operators in query syntax.

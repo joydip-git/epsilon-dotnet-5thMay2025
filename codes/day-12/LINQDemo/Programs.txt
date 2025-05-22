@@ -1,0 +1,83 @@
+﻿//source of data
+List<int> numbers = [1, 2, 5, 3, 7, 8, 6, 4, 0, 9];
+List<string> names = ["anil", "sunil", "joydip", "vinod"];
+
+//select numbervalue from numbers order by numbervalue
+//1. sort the numbers in ascending order without mutating the original collection
+//1. sort the names in ascending alphabetical order without mutating the original collection
+
+//int[] temporary = new int[numbers.Count];
+//numbers.CopyTo(temporary, 0);
+//for (int i = 0; i < temporary.Length; i++)
+//{
+//    for (int j = i + 1; j < temporary.Length; j++)
+//    {
+//        //if (temporary[i] > temporary[j])
+//        if (temporary[i].CompareTo(temporary[j]) > 0)
+//        {
+//            int temp = temporary[i];
+//            temporary[i] = temporary[j];
+//            temporary[j] = temp;
+//        }
+//    }
+//}
+//List<int> sortedNumbers = temporary.ToList();
+//temporary = null;
+
+Func<int, int> orderLogic = (x) => x;
+var sortedNumbers = numbers.OrderBy(orderLogic);
+
+Func<string, string> orderNameLogic = (name) => name;
+var sortedNames = names.OrderBy(orderNameLogic);
+
+//select numbervalue from numbers where numbervalue%2==0
+//2. filter the even numbers from the sorted numbers
+//2. filter the the sorted names by the names which have a letter 'n' in their name
+
+//List<int> filteredNumbers = [];
+//foreach (var item in sortedNumbers)
+//{
+//    if (item % 2 == 0)
+//        filteredNumbers.Add(item);
+//}
+
+Func<int, bool> isEvenLogic = num => num % 2 == 0;
+var filteredNumbers = sortedNumbers.Where(isEvenLogic);
+
+Func<string, bool> nameWithN = (name) => name.Contains('n') || name.Contains('N');
+var filteredNames = names.Where(nameWithN);
+
+//select top(3) from numbers
+//3. select the first 3 values from the filtered numbers. if 3 values are not present, then select as many are there.
+//3. select the first 3 values from the filtered numbers. if 3 values are not present, then select as many are there.
+
+//List<int> selectedNumbers = [];
+//int count = 0;
+//if (filteredNumbers.Count >= 3)
+//{
+//    count = 3;
+//}
+//else
+//    count = filteredNumbers.Count;
+
+//for (int i = 0; i < count; i++)
+//{
+//    selectedNumbers.Add(filteredNumbers[i]);
+//}
+
+var selectedNumbers = filteredNumbers.Take(3);
+var selectedNames = filteredNames.Take(3);
+
+//select * from ...
+//4. print the final numbers
+//4. print the final names
+//foreach (var item in selectedNumbers)
+//{
+//    Console.WriteLine(item);
+//}
+
+Action<int> printNumber = (num) => Console.Write(num);
+selectedNumbers.ToList().ForEach(printNumber);
+
+Action<string> printName = name=> Console.WriteLine(name);
+selectedNames.ToList().ForEach(printName);
