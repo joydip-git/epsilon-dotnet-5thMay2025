@@ -6,7 +6,10 @@
         ILogger<LoggingMiddleware> logger;
         string addtionalInfo;
 
-        public LoggingMiddleware(RequestDelegate requestDelegate, ILogger<LoggingMiddleware> logger, string addtionalInfo)
+        public LoggingMiddleware(
+            RequestDelegate requestDelegate, 
+            ILogger<LoggingMiddleware> logger, 
+            string addtionalInfo)
         {
             this.requestDelegate = requestDelegate;
             this.logger = logger;

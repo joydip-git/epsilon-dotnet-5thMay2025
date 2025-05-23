@@ -50,11 +50,17 @@ ASP.NET Core: (Active Server Pages .NET Core)
 
 	any ASP.NET Core web app starts as console app
 	then initiates hosting an web application 
+		- first a builder (WebApplicationBuilder) object is created
+		- builder gets configured with configurations such as:  internal server to be used (Kestrel), JSON files to read configuration from (launchsettings.json, appsettings.json, appsettings.development/ production.json), creating logger service etc.
+		- Build() method of the builder class build the web host (WebApplication)
+
 	To provide infrastructure for different types of web app different "middleware" are used 
-	those "middleware" require different types of class objects to be created automatically in the runtime
+	a middleware is a piece of logic that is applied on the request pipeline to do somethig with the request and/or response
+	these "middlewares" do different kinds of job, such as procesing requests and responses, such as authenticating, authorizing, logging the user or requetst even before generating actual responses as well as post processing tasks after the response generation
+	those "middleware" require different types of class objects to be created automatically in the runtime, because the middleware class is simply dependent on those objects
 	those classes are known as "services"
 	you need to configure those services first and then use the corresponding middleware
-	these "middlewares" do different kinds of job, such as procesing requests and responses, such as authenticating, authorizing, logging the user or requetst even before generating actual responses as well as post processing tasks after the response generation
+	
 	
 template: ASP.NET Core Empty Project (generic web app, NOT specific)
 
@@ -85,3 +91,33 @@ interface IA{}
 
 class Impl:IA{} -> deprecated
 class NewImpl:IA{} -> Use this
+
+
+Controller:
+	ASP.NET Core runtime needs to use a middleware function "MapController()", which maps the incoming request to the appropriate action (methods) of a controller class
+	then ASP.NET Core runtime creates an instance of that Controller class and invokes the particular method (action)
+	but this middleware requires certain service objects to do this mapping and request processing w.r.t. controller
+	hence use "AddControllers()" method of the WebApplicationBuilder class to configure the builder by registering the services required by that middleware, so that the WebApplication class object (the web host) is created and middleware is called, the required service class objects are created and dependency injected inside the middleware
+
+
+Route pattern:
+	pattern			request URL
+	api/{controller}/all 	=> api/contact/all
+	api/{controller}/{name} => api/contact/joydip
+
+	var routeValues = new Dictionary<string,string>();
+	routeValues.Add("controller","contact");
+	routeValues.Add("name","joydip");
+
+	var cc = new ContactController();
+	//name -> [FromRoute(Name="name")]personName
+	cc.GetContact(personName:"joydip");
+	
+
+Model-View-Controller (MVC) pattern:
+-----------------------------------------------
+
+
+Controller
+	actions -> Model (data) 
+		-> View (design)

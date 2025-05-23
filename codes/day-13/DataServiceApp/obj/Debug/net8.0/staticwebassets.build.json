@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UcrMZPOF3YdLYGDkWjaton8RkXzPDS9VoWHv9xTO1xc=",
+  "Source": "DataServiceApp",
+  "BasePath": "_content/DataServiceApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
