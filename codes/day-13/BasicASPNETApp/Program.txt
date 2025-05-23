@@ -1,0 +1,19 @@
+﻿namespace BasicASPNETApp;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Welcome to ASP.NET Core");
+        
+        //extending the console app with hosting feature
+        //using generic host
+        //1. creating a builder
+        HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
+        //2. configuring the builder 
+        builder.Configuration.AddJsonFile("appsettings.json", false, true);
+        //3. creating the host
+        IHost host = builder.Build();
+        host.Run();
+    }
+}

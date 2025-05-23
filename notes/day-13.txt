@@ -57,3 +57,31 @@ ASP.NET Core: (Active Server Pages .NET Core)
 	these "middlewares" do different kinds of job, such as procesing requests and responses, such as authenticating, authorizing, logging the user or requetst even before generating actual responses as well as post processing tasks after the response generation
 	
 template: ASP.NET Core Empty Project (generic web app, NOT specific)
+
+Hosting:
+	dependency injection
+	manage object lifetime
+	reading configuration settings from JSON/XNL files
+	logging
+	application lifetime
+	application graceful shutdown
+
+.NET Host => 	Generic host (common purpose)
+		Specific hosts
+			- web host
+			- bakground service host etc.
+
+
+	hots web infrastructure in console app
+
+
+Builder pattern:
+	Builders build a Host
+	HostApplicationBuilder => create a generic host to host a any app
+	WebApplicationBuilder => create a web host to host an web app
+	
+
+interface IA{}
+
+class Impl:IA{} -> deprecated
+class NewImpl:IA{} -> Use this

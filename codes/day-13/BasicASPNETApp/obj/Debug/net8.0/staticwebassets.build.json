@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "78eA3o4Kr0ZG44GLNDh2b6D4vmQnThOUZdca5D0k0Hc=",
+  "Source": "BasicASPNETApp",
+  "BasePath": "_content/BasicASPNETApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
