@@ -1,0 +1,59 @@
+SOA (service oriented architecture) and distributed architecture
+
+services:
+-----------------
+interface IProductService
+{
+	//abstract declaration of the methods
+}
+class ProductService:IProductService //service type
+{
+	//methods (operations)
+}
+
+HTTP, FTP, TCP/IP etc.
+Remote Method Invocation (RMI)
+
+Service Provider and Service Consumer
+the services used to be described using WSDL => Web Service Description Language
+a WSDL file is shared by SP with the SC
+then SC remotely invokes the methods as mentioned in the WSDL file by using certain URL also mentioned in the WSDL file
+any change in the service will force the SC to fetch a fresh copy of the WSDL file
+
+RESTful API application:
+------------------------------
+provides loose coupiling between the SP and SC by NOT providing any details about the service type and its methods
+
+rather the SP only shares certain set of URLs and information about any additional data to be passed via request body along with the response pattern
+
+the HTTP protocol is the major backbone because it provides several methods like GET, POST, PUT, DELETE and PATCH etc.
+
+SP does not store any information or "state" of the client (as HTTP is stateless protocol)
+
+every request is treated as a fresh request from anyone without any information about the client being persisted at the server side
+
+this type of app does share the data (is sent as part of the response) in platform and technology neutral manner either as JSON or XML data
+always the any data from SC to SP is passed in JSON/XML format as well as the reponse from SP to SC is sent in JSON/XML format
+
+SP (RESTful) can fetch the data in JSON/XML sent by SC from the request and convert it to the proper format according to the technology and language using which the RESTful API app was created (De-Serialization) and again can convert the generated response (to be sent to the SC) in JSON/XML format (Serialization)
+
+ASP.NET Core: (Active Server Pages .NET Core)
+------------------------------------------------------
+	framework in .NET for web applications
+	uses "ASP.NET Core runtime" built at the top of the ".NET (Core) runtime"
+	different types of web app:
+		a. ASP.NET Core Model-View-Controller web app
+		b. ASP.NET Core Razor Page web app
+		c. ASP.NET Core Blazor app
+		d. ASP.NET Core Web API (RESTful web app)
+		e. .NET Aspire apps
+
+	any ASP.NET Core web app starts as console app
+	then initiates hosting an web application 
+	To provide infrastructure for different types of web app different "middleware" are used 
+	those "middleware" require different types of class objects to be created automatically in the runtime
+	those classes are known as "services"
+	you need to configure those services first and then use the corresponding middleware
+	these "middlewares" do different kinds of job, such as procesing requests and responses, such as authenticating, authorizing, logging the user or requetst even before generating actual responses as well as post processing tasks after the response generation
+	
+template: ASP.NET Core Empty Project (generic web app, NOT specific)
