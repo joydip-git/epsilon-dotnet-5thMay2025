@@ -1,0 +1,96 @@
+Product Management System Application:
+As all other layers are completed, hence just complete the ASP.Net Core Web API service layer as desribed at the bottom of the document
+
+
+database type: SQL Server
+database name: epsilondatabase
+table: products
+
+solution: Epsilon.DotNet.PmsApp
+---------------------------------------
+
+1. data transfer object: a type/entity which is used in layered architecture to transfer data from one layer to another layer
+
+library: Epsilon.DotNet.PmsApp.Entities
+class: Product
+
+2. data access layer:
+
+library: Epsilon.DotNet.PmsApp.Repository
+[add reference to Epsilon.DotNet.PmsApp.Entities library]
+
+class: ProductDao
+methods:
+	fetches all product records from database table "products" and returns the data to the caller as collection of product objects
+	List<Product> GetAll()
+
+	fetches a single product record from database table "products" and returns the data to the caller as a product object
+	Product Get(int id)
+
+	inserts a new record into the database table for a given product object
+	bool Insert(Product p)
+
+	updates an existing record in the database table for a given product id and updated product data
+	bool Update(int id, Product p)
+
+	removes an existing record in the database table for a given product id
+	bool Delete(int id)
+
+3. unit test for repository:
+
+project: unit test case project (MS Test)
+name: Epsilon.DotNet.PmsApp.RepositoryTests
+[add reference to the library Epsilon.DotNet.PmsApp.Repository]
+class: ProductDaoTests
+methods:
+	GetAllPositiveTest()
+	GetPositiveTest()
+
+4. business layer:
+
+library: Epsilon.DotNet.PmsApp.BusinessLogic
+[add reference to Epsilon.DotNet.PmsApp.Repository library]
+[add reference to Epsilon.DotNet.PmsApp.Entities library]
+
+class: ProductBusinessComponent
+methods:
+	fetches all product records from data access layer and returns the data to the caller as collection of product objects but sorted
+	List<Product> FetchAll(int choice)
+
+	fetches a single product record from data access layer and returns the data to the caller as it is, but before calling the dal method, it will perform validation on the data
+	Product Fetch(int id)
+
+	pass a new record to the dal for a given product object, but it will call dal method after validating the product object (and if necessary, auto-generate the product id)
+	bool Add(Product p)
+
+	pass the updatable record to dal method, for a given product id and updated product data, but it will call dal method after validating the product object and the id
+	bool Modify(int id, Product p)
+
+	pass the id of the product to delete to the dal method after validating the id
+	bool Remove(int id)
+
+5. unit test for business layer:
+
+project: unit test case project (MS Test)
+name: Epsilon.DotNet.PmsApp.BusinessLogicTests
+[add reference to the library Epsilon.DotNet.PmsApp.BusinessLogic]
+class: ProductBusinessComponentTests
+methods:
+	FetchAllPositiveTest()
+	FetchPositiveTest()
+
+
+6. Service Layer: (RESTful backend server using ASP.NET Core Web API)
+
+create a ASP.Net Core Web API application using the same template
+name: Epsilon.DotNet.PmsApp.ServiceLayer
+[add reference to the library Epsilon.DotNet.PmsApp.BusinessLogic]
+[add reference to the library Epsilon.DotNet.PmsApp.Entities]
+
+a. Create a controller class file -> ProductsController.cs
+b. Add necessary methods to call methods from ProductBusinessComponent class in Business Logic layer
+c. Map every method with an URL and Http protocol method using attributed routing
+d. Add necessary services and middlewares in the Program.cs file
+e. after running the application test the APIs through Swagger page
+
+    
