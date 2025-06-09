@@ -3,12 +3,11 @@
   "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-1\\DelegateRevision\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9123405F-DB1B-4313-9DE2-BD1E762BF21C}|DelegateRevision.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-1\\delegaterevision\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9123405F-DB1B-4313-9DE2-BD1E762BF21C}|DelegateRevision.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A760A591-1D21-4A6C-8F71-531CD4457C9A}|..\\BuiltInDelegates\\BuiltInDelegates.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-1\\builtindelegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9123405F-DB1B-4313-9DE2-BD1E762BF21C}|DelegateRevision.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-1\\delegaterevision\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9123405F-DB1B-4313-9DE2-BD1E762BF21C}|DelegateRevision.csproj|solutionrelative:calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9123405F-DB1B-4313-9DE2-BD1E762BF21C}|DelegateRevision.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-1\\delegaterevision\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9123405F-DB1B-4313-9DE2-BD1E762BF21C}|DelegateRevision.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +22,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Calculation.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-1\\DelegateRevision\\Calculation.cs",
-              "RelativeDocumentMoniker": "Calculation.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-1\\DelegateRevision\\Calculation.cs",
-              "RelativeToolTip": "Calculation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T05:47:29.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-1\\DelegateRevision\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-1\\DelegateRevision\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAADwvzYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T05:17:35.871Z",
+              "WhenOpened": "2025-06-09T06:59:26.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-1\\BuiltInDelegates\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BuiltInDelegates\\Program.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-1\\BuiltInDelegates\\Program.cs",
+              "RelativeToolTip": "..\\BuiltInDelegates\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T06:50:55.694Z",
               "EditorCaption": ""
             }
           ]
