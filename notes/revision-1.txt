@@ -1,0 +1,55 @@
+Top-level statement and local function:
+---------------------------------------------
+//namespace DelegateRevision;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        Console.WriteLine("in Main...");
+//        CallMe();
+//        static void CallMe()
+//        {
+//            Console.WriteLine("call me please!!!");
+//        }
+//    }
+//}
+
+Console.WriteLine("in Main...");
+CallMe();
+static void CallMe()
+{
+    Console.WriteLine("call me please!!!");
+}
+
+
+
+Callback mechanism:
+	pass a reference to a method [IsEven] as an argument to another method [Filter], and then call the former  [IsEven] from the later  [Filter], using the reference of the method
+
+
+Delegate:
+	it can store reference to a method and using the delegate you can invoke the method
+	delegate can be passed as an argument to another method (carrying the reference of some method)
+
+1. declaration:
+	delegate must match the signature of the method it is going to store reference of
+	i. return type should be same
+	ii. arguments
+		a. number of args
+		b. data type of args
+		c. position of the args
+
+	delegate <rt-of-a-method> <del-name>(<args-matching to the method arguments>)
+
+static int Add(int a, float b){}
+static int Subtract(int a, float b){}
+static int Multiple(float a, float b){}
+static int AddNums(float a, float b, float c){}
+
+delegate int CalDel(int x, float y); => this delegate can be used to store reference of any method with return type "int" and accepts two arguments of type "int" and "float" in the mentioned order
+
+2. store reference of the method:
+create an instance of the delegate and pass the method name (as the reference to the method) to the constructor of the delegate
+
+	

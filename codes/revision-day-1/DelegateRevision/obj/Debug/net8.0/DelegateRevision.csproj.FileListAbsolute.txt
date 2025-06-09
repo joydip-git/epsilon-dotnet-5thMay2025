@@ -1,0 +1,15 @@
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\bin\Debug\net8.0\DelegateRevision.exe
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\bin\Debug\net8.0\DelegateRevision.deps.json
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\bin\Debug\net8.0\DelegateRevision.runtimeconfig.json
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\bin\Debug\net8.0\DelegateRevision.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\bin\Debug\net8.0\DelegateRevision.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.AssemblyInfoInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.AssemblyInfo.cs
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.csproj.CoreCompileInputs.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.sourcelink.json
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\refint\DelegateRevision.dll
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.pdb
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\DelegateRevision.genruntimeconfig.cache
+D:\training\epsilon-dotnet-5thMay2025\codes\revision-day-1\DelegateRevision\obj\Debug\net8.0\ref\DelegateRevision.dll
