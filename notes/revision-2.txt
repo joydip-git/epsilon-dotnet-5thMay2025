@@ -1,0 +1,24 @@
+.Net 8 Core features:
+--------------------------
+1. dependency injection
+2. reading configuration data about application from different files, such as JSON, XML etc.
+3. Logging feature
+4. graceful shutdown and managing lifecyle of the application
+etc.
+
+DI:
+--------------
+1. create a registry where services (dependencies) will be registered
+2. register services (dependencies) with the registry
+3. create a provider (container) where those registered service (dependencies) objects will be created and its lifecyle will be maintained
+
+lifetime of the objects in IoC container:
+---------------------------------------------
+a. singleton
+b. scoped
+c. transient
+
+package for DI:
+--------------------------
+Microsoft.Extensions.DependencyInjection (main package) 
+Microsoft.Extensions.DependencyInjection.Abstractions (transitive package)

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-2\\dependencyinjectiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-2\\dependencyinjectiondemo\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|solutionrelative:manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-2\\dependencyinjectiondemo\\filedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|solutionrelative:filedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-2\\dependencyinjectiondemo\\dbdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|solutionrelative:dbdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-2\\dependencyinjectiondemo\\idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|solutionrelative:idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-2\\dependencyinjectiondemo\\dataaccesschoices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D489C84B-B5C1-4E0C-98EA-1A67591903A9}|DependencyInjectionDemo.csproj|solutionrelative:dataaccesschoices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDataAccess.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\IDataAccess.cs",
+              "RelativeDocumentMoniker": "IDataAccess.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\IDataAccess.cs",
+              "RelativeToolTip": "IDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:29:54.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataAccessChoices.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\DataAccessChoices.cs",
+              "RelativeDocumentMoniker": "DataAccessChoices.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\DataAccessChoices.cs",
+              "RelativeToolTip": "DataAccessChoices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:09:15.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbDataAccess.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\DbDataAccess.cs",
+              "RelativeDocumentMoniker": "DbDataAccess.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\DbDataAccess.cs",
+              "RelativeToolTip": "DbDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:08:05.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\Manager.cs",
+              "RelativeDocumentMoniker": "Manager.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\Manager.cs",
+              "RelativeToolTip": "Manager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:07:12.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileDataAccess.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\FileDataAccess.cs",
+              "RelativeDocumentMoniker": "FileDataAccess.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\FileDataAccess.cs",
+              "RelativeToolTip": "FileDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:06:08.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvyAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:05:50.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

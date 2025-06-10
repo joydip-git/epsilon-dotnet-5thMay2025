@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pOGzgzBXDCM=",
+  "success": true,
+  "projectFilePath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-2\\DependencyInjectionDemo-V2\\DependencyInjectionDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "C:\\Users\\joydip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
