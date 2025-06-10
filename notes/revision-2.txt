@@ -22,3 +22,62 @@ package for DI:
 --------------------------
 Microsoft.Extensions.DependencyInjection (main package) 
 Microsoft.Extensions.DependencyInjection.Abstractions (transitive package)
+
+package for Logging:
+--------------------------
+Microsoft.Extensions.Logging (main package) 
+Microsoft.Extensions.Logging.Abstractions (transitive package)
+
+package for Configuration:
+--------------------------
+Microsoft.Extensions.Configuration (main package) 
+Microsoft.Extensions.Configuration.Abstractions (transitive package)
+
+package for Hosting:
+--------------------------
+Microsoft.Extensions.Hosting (main package) 
+
+Microsoft.Extensions.Hosting.Abstractions (transitive package)
+Microsoft.Extensions.DependencyInjection (transitive package)
+Microsoft.Extensions.DependencyInjection.Abstractions (transitive package)
+Microsoft.Extensions.Logging (transitive package)
+Microsoft.Extensions.Logging.Abstractions (transitive package)
+Microsoft.Extensions.Configuration  (transitive package)
+Microsoft.Extensions.Configuration.Abstractions (transitive package)
+
+
+class House
+{
+	public House BuildHouse(){}
+}
+
+class HouseWithGarden:House
+{
+	public House BuildGarden(){}
+}
+
+class HouseWithPool:HouseWithGarden
+{
+	public House BuildPool(){}
+}
+
+
+class House{}
+
+class Builder
+{
+	private House house = new House();
+
+	public House BuildHouse(){ return house;}
+	public Builder BuildGarden(){ //extends the house with garden returns this;}
+	public Builder BuildPool(){//extends the house with pool returns this;}
+	
+}
+
+Builder builder = new Builder();
+builder.BuildHouse();
+
+builder.BuildGarden();
+builder.BuildPool();
+
+builder.BuildHouse();
