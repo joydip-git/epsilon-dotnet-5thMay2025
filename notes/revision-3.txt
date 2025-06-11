@@ -1,0 +1,62 @@
+ASP.NET Core => web framework
+-------------------------------------
+ASP.NET Core Razor Pages
+ASP.NET Core MVC Web App
+ASP.NET Core Blazor App
+
+ASP.NET Core Web API (RESTful API server app)
+
+Console App => Web Host Builder => Web Host => hosts an web application and blocks the Main thread form exiting
+
+Services (Dependencies):
+------------------------------
+WebApplicationBuilder builder = WebApplication.CreateBuilder();
+
+IServiceCollection serviceRegistry = builder.Services;
+//web api
+serviceRegistry.AddControllers();
+//mvc
+serviceRegistry.AddControllersWithViews();
+//razor
+serviceRegistry.AddRazorPages();
+
+WebApplication appHost = builder.Build();
+
+appHost.MapController();
+
+appHost.Run();
+
+
+class LoggerMiddleware
+{
+	private RequestDelegate requestDelegate;
+	private ILogger logger;
+	public LoggerMiddleware(RequestDelegate requestDelegate,ILogger logger)
+	{
+		this.requestDelegate = requestDelegate;
+		this.logger = logger;
+	}
+	//public void Invoke(HttpContext context)
+	public Task InvokeAsync(HttpContext context)
+	{
+		//context.Request
+		logger.LogInformation();
+		await context.Response.WriteAsync();
+		await requestDelegate.next();
+	}
+}
+
+
+
+http://localhost:1234/api/values/data
+
+routes table: 
+
+route						method	   controller		action
+------------------------------------------------------------------------------------------------
+http://localhost:1234/api/products/all 		GET	ProductsController => GetProducts()
+http://localhost:1234/api/products/view/{id} 	GET	ProductsController => GetProduct(int id)
+
+
+
+

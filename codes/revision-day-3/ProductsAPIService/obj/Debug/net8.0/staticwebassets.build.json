@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mxpyKOp2ttVdOZlhYobSMdc0Jek91rDDhLhmrXEEF6w=",
+  "Source": "ProductsAPIService",
+  "BasePath": "_content/ProductsAPIService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
