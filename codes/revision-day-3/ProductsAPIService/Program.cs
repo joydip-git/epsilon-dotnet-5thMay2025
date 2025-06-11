@@ -1,12 +1,15 @@
+using ProductsAPIService.Models;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 //fetching the connection string from file
-string? conStr = builder.Configuration.GetConnectionString("EpsilonDbConStr");
+//string? conStr = builder.Configuration.GetConnectionString("EpsilonDbConStr");
 
 //Part-1: service registration
 
 // Add services to the container for Web API application
 builder.Services.AddControllers();
+builder.Services.AddScoped<IRepository, ProductRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-3\\productsapiservice\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|solutionrelative:models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/JOYDIP_PC_SQLEXPRESS/epsilondatabase/True/SqlTable/dbo.products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/JOYDIP_PC_SQLEXPRESS/epsilondatabase/True/SqlTable/dbo.products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-3\\productsapiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-3\\productsapiservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-3\\productsapiservice\\models\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|solutionrelative:models\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|d:\\training\\epsilon-dotnet-5thmay2025\\codes\\revision-day-3\\productsapiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6788518B-2DBD-4218-BE37-69DD1922AF9C}|ProductsAPIService.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,55 +25,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "dbo.products [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/JOYDIP_PC_SQLEXPRESS/epsilondatabase/True/SqlTable/dbo.products.sql",
               "ToolTip": "dbo.products [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-11T06:57:56.999Z",
+              "WhenOpened": "2025-06-11T07:38:20.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\IRepository.cs",
-              "RelativeDocumentMoniker": "Models\\IRepository.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\IRepository.cs",
-              "RelativeToolTip": "Models\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T06:56:15.653Z",
+              "WhenOpened": "2025-06-11T07:35:17.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Models\\ProductRepository.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\ProductRepository.cs",
-              "RelativeToolTip": "Models\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T06:55:04.042Z",
+              "WhenOpened": "2025-06-11T07:28:09.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Models\\ProductRepository.cs",
+              "ToolTip": "D:\\training\\epsilon-dotnet-5thMay2025\\codes\\revision-day-3\\ProductsAPIService\\Models\\ProductRepository.cs",
+              "RelativeToolTip": "Models\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T06:52:25.203Z",
+              "WhenOpened": "2025-06-11T06:55:04.042Z",
               "EditorCaption": ""
             }
           ]
