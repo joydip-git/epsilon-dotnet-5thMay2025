@@ -58,5 +58,24 @@ http://localhost:1234/api/products/all 		GET	ProductsController => GetProducts()
 http://localhost:1234/api/products/view/{id} 	GET	ProductsController => GetProduct(int id)
 
 
+MaoController() middleware method:
+	
+	key 		value
+	--------------------------
+	controller	products
+	uri		all
+
+	
+	controller 	products
+	uri		view
+	id		100 => productId
+
+
+api/categories/{cid}/products/{pid}	=> GetProductsByCategory(int categoryid, int productid)
+
+Data Source=JOYDIP-PC\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+
+
 
 
